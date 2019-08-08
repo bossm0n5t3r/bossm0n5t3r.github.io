@@ -19,7 +19,7 @@ redirect_from:
 
 ## 2. Conditions
 - $$ dp[i][j] = \min_{i < k < j}{dp[i][k] + dp[k][j] + C[i][j]} $$
-- $$ \min[i][j - 1] \le \min[i][j] \le \min[i + 1][j]
+- $$ \min[i][j - 1] \le \min[i][j] \le \min[i + 1][j] $$
 
 
 ## 3. Analysis
