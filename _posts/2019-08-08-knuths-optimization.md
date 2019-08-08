@@ -18,7 +18,8 @@ redirect_from:
 - 다음의 Conditions 들을 만족해야 활용가능하다.
 
 ## 2. Conditions
-- $$ dp[i][j] = min_{i < k < j}{dp[i][k] + dp[k][j] + C[i][j]} $$
+- $$ dp[i][j] = \min_{i < k < j}{dp[i][k] + dp[k][j] + C[i][j]} $$
+- $$ \min[i][j - 1] \le \min[i][j] \le \min[i + 1][j]
 
 
 ## 3. Analysis
@@ -28,5 +29,5 @@ redirect_from:
 
 
 <script type="text/javascript" async
-  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js">
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML">
 </script>
