@@ -6,6 +6,7 @@ categories: [Dynamic Programming, Programming, Algorithm]
 tags: [Dynamic Programming, Programming, Algorithm]
 redirect_from:
   - /2019/08/08/
+use_math: true
 ---
 
 # Knuth's Optimization
@@ -36,11 +37,3 @@ redirect_from:
 ## 4. Algorithm
 ## 5. Code
 ## 6. References
-
-
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
-});
-</script>
-<script type="text/javascript" async src="path-to-mathjax/MathJax.js?config=TeX-AMS_CHTML"></script>
