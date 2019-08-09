@@ -10,6 +10,9 @@ layout: blog
                         <h1 class="entry-title" itemprop="name">{{ page.title }}</h1>
                     </div>
                 </div>
+                {% if page.use_math %}
+                    {% include common/mathjax_support.html %}
+                {% endif %}
             </header>
             <div class="bd article-content">
                 <div class="entry-content">
