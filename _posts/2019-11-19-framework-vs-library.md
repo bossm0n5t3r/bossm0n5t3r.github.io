@@ -11,7 +11,7 @@ use_math: false
 
 # 프레임워크와 라이브러리의 차이점
 
-<img src="assets/images/posts/2019-11-19-framework-vs-library/framework-vs-library.png">
+<img src="/assets/images/posts/2019-11-19-framework-vs-library/framework-vs-library.png">
 
 ## 프레임워크란?
 
