@@ -11,7 +11,7 @@ use_math: false
 
 # What is a [Node.js](https://nodejs.org/en/about/)
 
-![logo.png](../assets/images/posts/2019-11-18-what-is-a-nodejs/nodejs-green.png)
+<img src="/assets/images/posts/2019-11-18-what-is-a-nodejs/nodejs-green.png">
 
 ## 목차
 
