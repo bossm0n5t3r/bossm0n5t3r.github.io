@@ -1,0 +1,57 @@
+---
+layout: post
+title: "프레임워크와 라이브러리의 차이점"
+description: "프레임워크와 라이브러리의 차이점"
+categories: [Framework, Library]
+tags: [Framework, Library]
+redirect_from:
+  - /2019/11/19/
+use_math: false
+---
+
+# 프레임워크와 라이브러리의 차이점
+
+<img src="assets/images/posts/2019-11-19-framework-vs-library/framework-vs-library.png">
+
+## 프레임워크란?
+
+- 프레임워크는 뼈대나 기반구조를 의미
+- 제어의 역전 개념이 적용된 대표적인 기술
+  - 제어의 역전이란?
+    - 어떠한 일을 하도록 만들어진 프레임워크에 제어의 권한을 넘김으로써 클라이언트 코드가 신경써야 할 것을 줄이는 전략
+    - Example
+      - 프레임워크는 인터페이스와 추상을 알고 있으므로 내가 하고자 하는 일련의 작업을 처리 가능
+      - 이는 객체를 프레임워크에 주입하는 것이고, 이를 <strong>의존성 주입 (Dependency Injection)</strong> 한다고 표현
+- 소프트웨어에서의 프레임워크
+  - 소프트웨어의 특정 문제를 해결하기 위해서 상호 협력하는 클래스와 인터페이스의 집합
+  - 완성된 어플리케이션이 아닌 프로그래머가 완성시키는 작업이 필요
+- 객체 지향 개발을 하게 되면서, 통합성, 일관성의 부족이 발생되는 문제를 해결할 방법 중 하나
+
+### 프레임워크의 특징
+
+- 특정 개념들의 추상화를 제공하는 여러 클래스나 컴포넌트로 구성
+- 추상적인 개념들이 문제를 해결하기 위해 같이 작업하는 방법을 정의
+- 컴포넌트의 재사용이 가능
+- 높은 수준에서의 패턴들을 조작화 가능
+
+## 라이브러리란?
+
+- 단순 활용가능한 도구들의 집합
+
+## 프레임워크와 라이브러리의 차이점은?
+
+- <strong>제어 흐름에 대한 주도성이 누구에게, 그리고 어디에 있는가</strong>에 따라 달라짐
+- 즉, <strong>어플리케이션의 흐름을 누가 쥐고 있느냐</strong>로 구분
+- 프레임워크
+  - <strong>전체적인 흐름을 스스로가 쥐고 있음</strong>
+  - 사용자는 그 안에서 필요한 코드를 넣음
+- 라이브러리
+  - 사용자가 전체적인 흐름을 만듦
+  - <strong>라이브러리를 가져다 쓰는 것</strong>이라고 표현
+- 라이브러리는 가져다 쓰는 쪽에 전적으로 주도성이 있으며, 프레임워크는 그 틀 안에 이미 제어 흐름에 대한 주도성이 내재되어있음
+
+## References
+
+- [https://www.geeksforgeeks.org/software-framework-vs-library/](https://www.geeksforgeeks.org/software-framework-vs-library/)
+- [https://webclub.tistory.com/458](https://webclub.tistory.com/458)
+- [https://mangkyu.tistory.com/4](https://mangkyu.tistory.com/4)
