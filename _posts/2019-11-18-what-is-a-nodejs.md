@@ -24,6 +24,7 @@ use_math: false
   - [1.6. 블로킹 vs 논블로킹](#blocking-vs-non-blocking)
   - [1.7. 싱글 스레드](#single-thread)
 - [2. 서버로서의 노드](#node-as-a-server)
+- [3. References](#references)
 
 <hr/>
 
@@ -248,3 +249,9 @@ use_math: false
 - 어디에 부적합할까?
   - 이미지나 비디오 처리, 대규모 데이터 처리 같이 CPU를 많이 사용하는 작업을 위한 서버로는 x
   - AWS Lambda 나 Google Cloud Functions 같은 서비스에서 노드로 CPU를 많이 사용하는 작업을 처리하는 것을 지원
+
+<a name="references"></a>
+
+## 3. References
+
+- [https://github.com/bossm0n5t3r/Learning_NodeJS/tree/master/Chapter01](https://github.com/bossm0n5t3r/Learning_NodeJS/tree/master/Chapter01)
