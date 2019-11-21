@@ -1,0 +1,55 @@
+---
+layout: post
+title: "git reset vs git revert"
+description: "git reset vs git revert"
+categories: [Git, git reset, git revert]
+tags: [Git, git reset, git revert]
+redirect_from:
+  - /2019/11/22/
+use_math: false
+---
+
+# git reset vs git revert
+
+<img src="/assets/images/posts/2019-11-22-git-reset-vs-git-revert/git-reset-vs-git-revert.jpg">
+
+## git reset 은?
+
+- 시계를 다시 맞추는 것
+- 돌아가려는 커밋으로 repository는 재설정되고, 해당 커밋 이후의 이력은 사라짐
+- ```sh
+  $ git reset <option> <commit>
+  ```
+  - 옵션의 종류
+    - hard
+      - 돌아가려는 이력 이후의 모든 내용을 지움
+    - soft
+      - 돌아가려 했던 이력으로 되돌아 감
+      - 이후의 내용이 지워지지 않음
+      - 해당 내용의 인덱스(또는 스테이지)도 그대로 존재
+      - 바로 다시 커밋할 수 있는 상태로 남아있음
+    - mixed
+      - 기본 옵션
+      - 이력은 되돌아감
+      - 변경된 내용에 대해서는 남아있지만, 인덱스는 초기화
+      - 커밋을 하려면 다시 변경된 내용은 추가해야 하는 상태
+
+## git revert 는?
+
+- 상태를 되돌리는 것
+- git reset 에서 hard 옵션 준 것만을 뺀 결과를 가짐
+- 하지만 이력은 같지 않음
+  - 이전 이력은 그대로 있고, 해당 커밋으로 되돌림
+- ```sh
+  $ git revert <commit>
+  ```
+- 되돌릴 커밋이 여러 개면 범위를 주어서 여러 개를 선택할 수 있음
+
+## git reset vs git revert
+
+- 이미 git push를 한 상태라면 git revert를 해야 함
+- conflict 부분은 결자해지
+
+## References
+
+- [https://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/](https://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/)
