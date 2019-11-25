@@ -11,6 +11,8 @@ use_math: false
 
 # Windows 10 Home에서 Docker 설치하기
 
+<img src="/assets/images/posts/2019-11-25-how-to-install-docker-on-windows-10-home/Moby-logo.png">
+
 ## Windows 10 Home 버전과 Windows 10 Pro 이상의 차이
 
 - Windows 에서 Docker를 사용하려면 Hyper-V가 필요함
