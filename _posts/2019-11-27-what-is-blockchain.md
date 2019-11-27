@@ -9,7 +9,7 @@ redirect_from:
 use_math: false
 ---
 
-# "What is Blockchain"
+# What is Blockchain
 
 <img src="/assets/images/posts/2019-11-27-what-is-blockchain/tecnologia-blockchain-2.jpg">
 
