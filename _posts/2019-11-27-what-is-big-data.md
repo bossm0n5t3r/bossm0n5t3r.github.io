@@ -9,7 +9,7 @@ redirect_from:
 use_math: false
 ---
 
-# "What is Big Data"
+# What is Big Data
 
 <img src="/assets/images/posts/2019-11-27-what-is-big-data/BigData-1024x682-1024x682.jpg">
 
