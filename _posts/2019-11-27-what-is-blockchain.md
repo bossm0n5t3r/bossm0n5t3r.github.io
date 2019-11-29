@@ -7,6 +7,7 @@ tags: [Blockchain, 블록체인]
 redirect_from:
   - /2019/11/27/
 use_math: false
+published: false
 ---
 
 # What is Blockchain

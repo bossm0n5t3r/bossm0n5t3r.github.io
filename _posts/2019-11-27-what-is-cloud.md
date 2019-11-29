@@ -7,6 +7,7 @@ tags: [Cloud, 클라우드]
 redirect_from:
   - /2019/11/27/
 use_math: false
+published: false
 ---
 
 # What is Cloud

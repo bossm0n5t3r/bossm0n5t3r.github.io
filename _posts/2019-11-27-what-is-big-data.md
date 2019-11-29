@@ -7,6 +7,7 @@ tags: [Big Data, 빅데이터]
 redirect_from:
   - /2019/11/27/
 use_math: false
+published: false
 ---
 
 # What is Big Data
