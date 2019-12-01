@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "How to add a Favicon to GitHub pages"
-description: "How to add a Favicon to GitHub pages"
+title: "깃허브 페이지에 파비콘 추가하기"
+description: "깃허브 페이지에 파비콘 추가하기"
 categories: [깃허브 페이지, github pages, 파비콘, favicon]
 tags: [깃허브 페이지, github pages, 파비콘, favicon]
 redirect_from:
@@ -9,7 +9,7 @@ redirect_from:
 use_math: false
 ---
 
-# How to add a Favicon to GitHub pages
+# 깃허브 페이지에 파비콘 추가하기
 
 <img src="/assets/images/posts/2019-12-01-how-to-add-a-favicon-to-github-pages/GitHub-Mark-120px-plus.png">
 
@@ -27,7 +27,7 @@ use_math: false
 - 보통은 index.html 파일 혹은 header.html 파일이 공통적인 부분이므로 먼저 있는지 찾아보자.
   - 본인의 테마같은 경우 meta.html 파일이 공통 head 부분이므로 여기에 추가했다.
 - 찾은 다음에 <head> 부분에 다음 코드를 넣어주면 된다.
-  - ```html
+  - ```text
     <link
       rel="shortcut icon"
       type="image/x-icon"
