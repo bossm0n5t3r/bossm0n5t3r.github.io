@@ -27,11 +27,11 @@ use_math: false
 - 보통은 index.html 파일 혹은 header.html 파일이 공통적인 부분이므로 먼저 있는지 찾아보자.
   - 본인의 테마같은 경우 meta.html 파일이 공통 head 부분이므로 여기에 추가했다.
 - 찾은 다음에 <head> 부분에 다음 코드를 넣어주면 된다.
-  - ```html
+  - ```js
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="\{\{ site.baseurl \}\}/assets/favicon_io/favicon.ico"
+      href="{{ site.baseurl }}/assets/favicon_io/favicon.ico"
     />
     ```
   - href 부분에서 본인이 넣은 폴더와 이미지 파일명을 넣어주면 된다.
