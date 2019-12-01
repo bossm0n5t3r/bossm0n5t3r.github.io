@@ -31,7 +31,7 @@ use_math: false
     <link
       rel="shortcut icon"
       type="image/x-icon"
-      href="{{ site.baseurl }}/assets/favicon_io/favicon.ico"
+      href="\{\{ site.baseurl \}\}/assets/favicon_io/favicon.ico"
     />
     ```
   - href 부분에서 본인이 넣은 폴더와 이미지 파일명을 넣어주면 된다.
