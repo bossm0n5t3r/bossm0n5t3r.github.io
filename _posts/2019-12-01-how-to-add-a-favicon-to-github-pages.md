@@ -34,7 +34,6 @@ use_math: false
       href="{{ site.baseurl }}/assets/favicon_io/favicon.ico"
     />
     ```
-  - 실제로는 href 부분에서 href="{{ site.baseurl }}/assets/favicon_io/favicon.ico" 이지만 {{ site.baseurl }} 이 안보이기 때문에 따로 표시합니다.
   - href 부분에서 본인이 넣은 폴더와 이미지 파일명을 넣어주면 된다.
 - 커밋 후 제대로 적용되었는지 확인해보자.
 
