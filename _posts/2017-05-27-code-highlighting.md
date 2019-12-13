@@ -6,27 +6,28 @@ categories: [demo]
 tags: [demo, jekyll]
 redirect_from:
   - /2017/05/27/
+published: false
 ---
 
-> This is code blocks and highlighting test page for [Simple Texture][Simple Texture] theme.
+> This is code blocks and highlighting test page for [Simple Texture][simple texture] theme.
 
-* Kramdown table of contents
-{:toc .toc}
+- Kramdown table of contents
+  {:toc .toc}
 
 # Code Spans
 
-This is a test for inline codeblocks like `C:/Ruby23-x64` or `SELECT  "offices".* FROM "offices" `
+This is a test for inline codeblocks like `C:/Ruby23-x64` or `SELECT "offices".* FROM "offices"`
 
 Here is a literal `` ` `` backtick.
 And here is a Ruby code fragment `x = Class.new`{:.language-ruby}
 
 # Fenced Code Blocks
 
-~~~~~~~~~~~~
+```
 ~~~~~~~
 code with tildes
 ~~~~~~~~
-~~~~~~~~~~~~~~~~~~
+```
 
 # Simple codeblock with long lines
 
@@ -36,11 +37,11 @@ code with tildes
 
 # Language of Code Blocks
 
-~~~ ruby
+```ruby
 def what?
   42
 end
-~~~
+```
 
 # Highlighted
 
@@ -52,7 +53,7 @@ end
 
 {% highlight ruby %}
 def foo
-  puts 'foo'
+puts 'foo'
 end
 {% endhighlight %}
 
@@ -60,9 +61,9 @@ end
 
 {% highlight c# %}
 public class Hello {
-    public static void Main() {
-        Console.WriteLine("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
-    }
+public static void Main() {
+Console.WriteLine("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+}
 }
 {% endhighlight %}
 
@@ -70,11 +71,11 @@ public class Hello {
 
 {% highlight javascript linenos=table %}
 function myFunction() {
-    alert("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
+alert("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.");
 }
 {% endhighlight %}
 
 [^1]: This is a footnote.
 
 [kramdown]: https://kramdown.gettalong.org/
-[Simple Texture]: https://github.com/yizeng/jekyll-theme-simple-texture
+[simple texture]: https://github.com/yizeng/jekyll-theme-simple-texture
