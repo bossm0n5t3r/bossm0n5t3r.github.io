@@ -6,6 +6,7 @@ categories: [정보보안기사]
 tags: [정보보안기사]
 redirect_from:
   - /2019/12/27/
+use_math: true
 published: true
 ---
 
@@ -17,10 +18,10 @@ published: true
 
 ### 1. 암호학(Cryptology)의 정의
 
-> 암호란?
+> 암호란?<br>
 > 약속된 당사자 또는 집단에서만 암호문에 내포된 내용을 알 수 있게 하는 일종의 문서
 
-> 암호학(Cryptology)이란?
+> 암호학(Cryptology)이란?<br>
 > 평문을 다른 사람이 알아볼 수 없는 형태의 암호문으로 만들고
 > 특정한 비밀키를 알고 있는 사람만이 다시 평문으로 복원시킬 수 있도록 하는 암호기술(cryptography)과
 > 이를 제3자(도청자)가 해독하는 방법을 분석하는 암호해독(cryptanalysis)에 관하여 연구하는 학문
@@ -56,3 +57,24 @@ published: true
 - 도청자 이브(eavesdropper)는 반드시 사람만 의미하는 것은 아님
   - 통신기기에 장치된 도청용 기계도 가능
   - 메일 소프트웨어나 메일 서버에 설치된 프로그램 일수도 있다.
+
+### 4. 암호화와 복호화
+
+<img src="/assets/images/posts/2019-12-27-information-security-4/In_Page_Encryption_Decryption_Diagram_700.png">
+
+- 평문(plaintext) -> 암호화(Encrypt) -> 암호문(ciphertext)
+- 평문(plaintext) <- 복호화(Decrypt) <- 암호문(ciphertext)
+- 암호(cryptography)라는 기술을 사용해서 정보의 기밀성(confidentiality, 비밀성)을 유지
+
+### 5. 암호화와 복호화의 기호적 표현
+
+|     |     |
+| :-: | :-: |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
+|     |     |
