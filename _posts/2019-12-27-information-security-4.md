@@ -7,7 +7,7 @@ tags: [정보보안기사]
 redirect_from:
   - /2019/12/27/
 use_math: true
-published: true
+published: false
 ---
 
 # Part 02. 암호학
