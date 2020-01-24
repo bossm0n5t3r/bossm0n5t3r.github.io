@@ -9,3 +9,5 @@ redirect_from:
 use_math: false
 published: false
 ---
+
+<img src="/assets/images/posts/folder_name/file_name">
