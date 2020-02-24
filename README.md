@@ -11,7 +11,7 @@ This repository is based on [Simple Texture Jekyll Theme](https://github.com/yiz
 > - ruby
 
 ```sh
-  $ gem install jekyll bundler
+  $ sudo gem install jekyll bundler
 
   # cd blog repository
 
