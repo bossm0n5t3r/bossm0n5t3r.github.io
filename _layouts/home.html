@@ -15,13 +15,13 @@
       type="text/css"
     />
     {% include common/libraries.html %} {% if site.google_tag_manager %} {%
-    include common/gtm-head.html %} {% endif %}
+    include common/gtm-head.html %} {% endif %} {% if site.google_analytics %}
+    {% include common/google_analytics.html %} {% endif %}
   </head>
 
   <body>
     {% if site.google_tag_manager %} {% include common/gtm-body.html %} {% endif
-    %} {% if site.google_analytics %} {% include common/google_analytics.html %}
-    {% endif %}
+    %}
     <ul id="menu">
       <li data-menuanchor="bio"><a href="#bio">Biography</a></li>
       <li data-menuanchor="social"><a href="#social">Social Links</a></li>
