@@ -1,7 +1,5 @@
 # [The Archive](https://bossm0n5t3r.github.io/)
 
-## bossm0n5t3r's blog
-
 This repository is based on [Simple Texture Jekyll Theme](https://github.com/yizeng/jekyll-theme-simple-texture)
 
 ## Usage
