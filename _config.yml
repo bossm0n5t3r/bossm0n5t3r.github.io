@@ -61,8 +61,8 @@ home:
   section2: <h2>The archive that records everything</h2>
   section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/bossm0n5t3r" title="View on GitHub"></a></div>
 blog:
-  cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
-  cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
+  cc_license: # http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
+  cc_license_image: # /assets/images/theme/cc-by-sa.png # An image of your CC License.
   footer_content: The Archive that records everything.
 
 disqus:
