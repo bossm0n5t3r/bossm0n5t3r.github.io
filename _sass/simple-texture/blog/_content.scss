@@ -149,10 +149,9 @@
   code.highlighter-rouge {
     margin: 0;
     padding: 4px;
-
     white-space: nowrap;
-
-    background-color: $color-inline-code-background;
+    background-color: rgba(135,131,120,0.15);
+    color: #EB5757;
   }
 
   pre {
@@ -228,7 +227,7 @@
 
     border: 1px dashed $color-box-border;
     border-left: 8px solid $color-box-border;
-    background-color: $color-inline-code-background;
+    background-color: #FFFFFF;
 
     p {
       margin: 12px 0 !important;
