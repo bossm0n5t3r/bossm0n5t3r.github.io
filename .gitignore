@@ -12,6 +12,7 @@ Thumbs.db
 /node_modules
 /yarn-error.log
 yarn.lock
+.wakatime-project
 
 # Ignore Yard Doc
 /doc
