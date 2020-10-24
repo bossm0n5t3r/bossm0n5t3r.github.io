@@ -1,16 +1,11 @@
-site: Sidey
+site: The Archive
 url: #yoururl
-title: Sidey
-description: Simple and minimalistic jekyll blogging theme.
-twitter:
-  username: #yourusername
-  card: summary
-  creator: #yourusername
+title: The Archive
+description: The archive that records everything
 author:
-  twitter: #yourusername
-  name: #yourusername
-  avatar:
-  email: #youremail
+  name: bossm0n5t3r
+  avatar: https://avatars0.githubusercontent.com/u/38637046?v=4
+  email: bossm0n5t3r@gmail.com
   url: #yoururl
 permalink: pretty
 
@@ -40,7 +35,7 @@ collections:
     permalink: /:name
   posts:
     output: true
-    permalink: /:year/:month/:day/:slug
+    permalink: /:slug
   
 defaults:
   -
@@ -60,3 +55,6 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+
+google_analytics:
+  ua: UA-160187052-1
