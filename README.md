@@ -1,6 +1,6 @@
 # [The Archive](https://bossm0n5t3r.github.io/)
 
-This repository is based on [Simple Texture Jekyll Theme](https://github.com/yizeng/jekyll-theme-simple-texture)
+This repository is based on [Sidey](https://github.com/ronv/sidey)
 
 ## Usage
 
