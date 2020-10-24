@@ -33,5 +33,6 @@
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
-
+  
+  {% if page.use_math %} {% include common/mathjax.html %} {% endif %}
 </head>
