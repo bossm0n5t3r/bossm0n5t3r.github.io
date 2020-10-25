@@ -2,10 +2,8 @@
 :after,
 :before {
   box-sizing: border-box;
-  background-color: inherit;
-  color: inherit;
   margin: 0;
-  padding: 0;
+  // padding: 0;
 }
 
 body {
@@ -27,11 +25,6 @@ a {
   text-decoration: underline;
 }
 
-pre {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-}
-
 .post p {
   margin: 0.5rem 0;
 }
@@ -51,24 +44,6 @@ pre {
 
 .meta {
   margin: 2rem 0;
-}
-
-code,
-pre {
-  background: rgb(236, 237, 238);
-}
-
-code {
-  padding: 0.1rem;
-}
-
-pre code {
-  border: none;
-}
-
-pre {
-  padding: 1rem;
-  overflow-x: auto;
 }
 
 img {
@@ -172,11 +147,11 @@ header ul {
   font-variant-numeric: tabular-nums;
 }
 
-.post ul,
-.project ul,
-.post ol {
-  //list-style-position: inside;
-}
+// .post ul,
+// .project ul,
+// .post ol {
+//   list-style-position: inside;
+// }
 
 main {
   display: flex;
