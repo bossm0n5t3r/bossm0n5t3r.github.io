@@ -1,28 +1,21 @@
-# Node.js
-node_modules/
-pnpm-lock.yaml
+*.gem
+.bundle
+.sass-cache
+_site
+Gemfile.lock
 
-# macOS
+Thumbs.db
 .DS_Store
-.AppleDouble
-.LSOverride
 
-# Sass
-.sass-cache/
-*.css.map
-*.sass.map
-*.scss.map
-
-# VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-
-# Project
-TODO.md
-public/
-cache/
-*.log
+.rbenv-version
+.rvmrc
+/node_modules
+/yarn-error.log
+yarn.lock
 .wakatime-project
+.jekyll-cache/
+.idea/
+
+# Ignore Yard Doc
+/doc
+.yardoc/
