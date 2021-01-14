@@ -223,8 +223,8 @@ published: false
 #### 1. 개요
 
 - 보안의 세 가지 목표(기밀성, 무결성, 가용성)는 보안 공격에 의해 위협을 받을 수 있음
-- <a class="post-image" href="https://www.includehelp.com/cryptography/Images/non-cryptography-attacks.jpg">
-  <img itemprop="image" data-src="https://www.includehelp.com/cryptography/Images/non-cryptography-attacks.jpg" src="/assets/javascripts/unveil/loader.gif" alt="Kramdown Overview" />
+- <a class="post-image" href="https://www.includehelp.com/cryptography/img/non-cryptography-attacks.jpg">
+  <img itemprop="image" data-src="https://www.includehelp.com/cryptography/img/non-cryptography-attacks.jpg" src="/assets/javascripts/unveil/loader.gif" alt="Kramdown Overview" />
   </a>
 
 #### 중요 체크

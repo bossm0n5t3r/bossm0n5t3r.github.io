@@ -6,13 +6,13 @@ categories: [React]
 tags: [React]
 redirect_from:
   - /2020/05/15/
-use_math: false
+math: false
 published: false
 ---
 
 # [React] Components and Props
 
-<img src="/assets/images/posts/logos/react-logo.svg" width="300">
+<img src="/assets/img/posts/logos/react-logo.svg" width="300">
 
 - 컴포넌트를 통해 UI를 재사용 가능한 개별적인 여러 조각으로 나누고,
 - 각 조각을 개별적으로 살펴볼 수 있다.

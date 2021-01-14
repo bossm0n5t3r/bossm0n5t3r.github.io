@@ -1,0 +1,11 @@
+# hidden files
+.DS_Store
+.editorconfig
+.gitattributes
+.jekyll-cache/
+.jekyll-metadata
+.wakatime-project
+
+# jekyll cache
+_site/
+vendor

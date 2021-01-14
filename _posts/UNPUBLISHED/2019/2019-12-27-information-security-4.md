@@ -6,7 +6,7 @@ categories: [정보보안기사]
 tags: [정보보안기사]
 redirect_from:
   - /2019/12/27/
-use_math: true
+math: true
 published: false
 ---
 
@@ -60,7 +60,7 @@ published: false
 
 ### 4. 암호화와 복호화
 
-<img src="/assets/images/posts/2019-12-27-information-security-4/In_Page_Encryption_Decryption_Diagram_700.png">
+<img src="/assets/img/posts/2019-12-27-information-security-4/In_Page_Encryption_Decryption_Diagram_700.png">
 
 - 평문(plaintext) -> 암호화(Encrypt) -> 암호문(ciphertext)
 - 평문(plaintext) <- 복호화(Decrypt) <- 암호문(ciphertext)

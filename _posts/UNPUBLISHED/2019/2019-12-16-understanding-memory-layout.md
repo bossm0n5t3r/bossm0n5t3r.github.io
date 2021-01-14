@@ -6,7 +6,7 @@ categories: [메모리, Memory]
 tags: [메모리, Memory]
 redirect_from:
   - /2019/12/16/
-use_math: false
+math: false
 published: false
 ---
 
@@ -23,7 +23,7 @@ published: false
   - 3. 데이터(Data) 영역
   - 4. 코드(Code) 영역
 
-<img src="/assets/images/posts/2019-12-16-understanding-memory-layout/memory_layout.png">
+<img src="/assets/img/posts/2019-12-16-understanding-memory-layout/memory_layout.png">
 
 ## Stack
 
