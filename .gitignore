@@ -1,21 +1,11 @@
-*.gem
-.bundle
-.sass-cache
-_site
-Gemfile.lock
-
-Thumbs.db
+# hidden files
 .DS_Store
-
-.rbenv-version
-.rvmrc
-/node_modules
-/yarn-error.log
-yarn.lock
-.wakatime-project
+.editorconfig
+.gitattributes
 .jekyll-cache/
-.idea/
+.jekyll-metadata
+.wakatime-project
 
-# Ignore Yard Doc
-/doc
-.yardoc/
+# jekyll cache
+_site/
+vendor
