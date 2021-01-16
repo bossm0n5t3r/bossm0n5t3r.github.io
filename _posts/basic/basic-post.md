@@ -1,13 +1,12 @@
 ---
-layout: post
-title: ""
-description: ""
-categories: []
-tags: []
-redirect_from:
-  - /2021/01/01/
+title: TITLE
+date: YYYY-MM-DD 00:00:00 +0900
+categories: [TOP_CATEGORIE, SUB_CATEGORIE]
+tags: [TAG] # TAG names should always be lowercase
+image: /path/to/image-file
+pin: false
 math: false
 published: false
 ---
 
-<img src="/assets/img/posts/folder_name/file_name">
+![Desktop View](/assets/img/sample/mockup.png){: width="400"} // {: .normal}, {: .left}, {: .right}
