@@ -9,7 +9,7 @@ This repository is based on [Chirpy](https://github.com/cotes2020/jekyll-theme-c
 > - ruby
 
 ```sh
-  $ sudo gem install jekyll bundler
+  $ gem install jekyll bundler
 
   # cd blog repository
 
