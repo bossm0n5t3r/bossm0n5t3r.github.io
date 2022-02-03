@@ -92,8 +92,8 @@ comments:
     shortname:    # fill with the Disqus shortname. › https://help.disqus.com/en/articles/1717111-what-s-a-shortname
   # utterances settings › https://utteranc.es/
   utterances:
-    repo: bossm0n5t3r/blog-comment        # <gh-username>/<repo>
-    issue_term: url  # < url | pathname | title | ...>
+    repo: bossm0n5t3r/blog-comments        # <gh-username>/<repo>
+    issue_term: pathname  # < url | pathname | title | ...>
 
 paginate: 10
 
