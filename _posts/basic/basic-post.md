@@ -1,8 +1,8 @@
 ---
 title: TITLE
-author:
-  name: Ji-Hoon Kim
-  link: https://github.com/bossm0n5t3r
+# author:
+#   name: Ji-Hoon Kim
+#   link: https://github.com/bossm0n5t3r
 date: YYYY-MM-DD 00:00:00 +0900
 categories: [TOP_CATEGORIE, SUB_CATEGORIE]
 tags: [TAG]
