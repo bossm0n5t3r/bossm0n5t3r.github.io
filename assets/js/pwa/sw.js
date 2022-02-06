@@ -45,7 +45,9 @@ self.addEventListener('fetch', event => {
           return response;
         }
 
-        return fetch(event.request)
+        let fetchRequest = event.request.clone();
+
+        return fetch(fetchRequest)
           .then(response => {
             const url = event.request.url;
 
