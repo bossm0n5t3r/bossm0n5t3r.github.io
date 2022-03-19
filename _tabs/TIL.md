@@ -1,5 +1,5 @@
 ---
 title: TIL
-icon: fas
+icon: fas fa-anchor
 order: 5
 ---
