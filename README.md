@@ -1,6 +1,6 @@
 # [The Archive](https://bossm0n5t3r.github.io/)
 
-![Current Chirpy Version](https://img.shields.io/badge/version-5.0.2-brightgreen)
+![Current Chirpy Version](https://img.shields.io/badge/version-5.3.2-brightgreen)
 
 This repository is based on [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy)
 
