@@ -9,7 +9,7 @@ tags: [TAG]
 math: false
 mermaid: false
 image:
-  src: /assets/img/posts/path/to/image-file
+  path: /assets/img/posts/path/to/image-file
   width: 800
   height: 500
 ---

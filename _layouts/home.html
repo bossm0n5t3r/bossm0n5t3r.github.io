@@ -3,10 +3,8 @@ layout: page
 # The Home page layout
 ---
 
-{% include lang.html %}
-
 {% assign pinned = site.posts | where: "pin", "true" %}
-{% assign default = site.posts | where_exp: "item", "item.pin != true" %}
+{% assign default = site.posts | where_exp: "item", "item.pin != true and item.hidden != true" %}
 
 {% assign posts = "" | split: "" %}
 
@@ -16,13 +14,12 @@ layout: page
 {% assign pinned_num = pinned.size | minus: offset %}
 
 {% if pinned_num > 0 %}
-  {% for i in (offset..pinned.size) limit: pinned_num %}
+{% for i in (offset..pinned.size) limit: pinned_num %}
     {% assign posts = posts | push: pinned[i] %}
   {% endfor %}
 {% else %}
   {% assign pinned_num = 0 %}
 {% endif %}
-
 
 <!-- Get default posts -->
 
@@ -58,19 +55,15 @@ layout: page
     </div>
 
     <div class="post-meta text-muted d-flex">
-
       <div class="mr-auto">
+
         <!-- posted date -->
         <i class="far fa-calendar fa-fw"></i>
-        {% include timeago.html date=post.date tooltip=true %}
-
-        <!-- time to read -->
-        <i class="far fa-clock fa-fw"></i>
-        {% include read-time.html content=post.content %}
+        {% include datetime.html date=post.date %}
 
         <!-- categories -->
         {% if post.categories.size > 0 %}
-          <i class="far fa-folder-open fa-fw"></i>
+        <i class="far fa-folder-open fa-fw"></i>
           <span>
           {% for category in post.categories %}
             {{ category }}
@@ -78,12 +71,13 @@ layout: page
           {% endfor %}
           </span>
         {% endif %}
+
       </div>
 
       {% if post.pin %}
       <div class="pin">
         <i class="fas fa-thumbtack fa-fw"></i>
-        <span>{{ site.data.locales[lang].post.pin_prompt }}</span>
+        <span>{{ site.data.locales[site.lang].post.pin_prompt }}</span>
       </div>
       {% endif %}
 

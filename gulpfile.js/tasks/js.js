@@ -11,7 +11,7 @@ const insert = require('gulp-insert');
 const fs = require('fs');
 
 const JS_SRC = '_javascript';
-const JS_DEST = `assets/js/dist/`;
+const JS_DEST = `assets/js/dist`;
 
 function concatJs(files, output) {
   return src(files)
@@ -21,9 +21,10 @@ function concatJs(files, output) {
 }
 
 function minifyJs() {
-  return src(`${ JS_DEST }/*.js`)
-    .pipe(insert.prepend(fs.readFileSync(`${ JS_SRC }/copyright`, 'utf8')))
-    .pipe(uglify({output: {comments: /^!|@preserve|@license|@cc_on/i}}))
+  return src(`${JS_DEST}/*.js`)
+      .pipe(insert.prepend(fs.readFileSync(`${JS_SRC}/copyright`, 'utf8')))
+      .pipe(uglify({output: {comments: /^!|@preserve|@license|@cc_on/i}}))
+      .pipe(insert.append('\n'))
     .pipe(dest(JS_DEST));
 }
 
@@ -34,7 +35,7 @@ const commonsJs = () => {
 const homeJs = () => {
   return concatJs([
       `${JS_SRC}/commons/*.js`,
-      `${JS_SRC}/utils/timeago.js`
+          `${JS_SRC}/utils/locale-datetime.js`
     ],
     'home'
   );
@@ -42,14 +43,13 @@ const homeJs = () => {
 
 const postJs = () => {
   return concatJs([
-      `${JS_SRC}/commons/*.js`,
-      `${JS_SRC}/utils/img-extra.js`,
-      `${JS_SRC}/utils/timeago.js`,
-      `${JS_SRC}/utils/checkbox.js`,
-      `${JS_SRC}/utils/clipboard.js`,
-      // 'smooth-scroll.js' must be called after ToC is ready
-      `${JS_SRC}/utils/smooth-scroll.js`
-    ], 'post'
+          `${JS_SRC}/commons/*.js`,
+          `${JS_SRC}/utils/img-extra.js`,
+          `${JS_SRC}/utils/locale-datetime.js`,
+          `${JS_SRC}/utils/clipboard.js`,
+          // 'smooth-scroll.js' must be called after ToC is ready
+          `${JS_SRC}/utils/smooth-scroll.js`
+      ], 'post'
   );
 };
 
@@ -62,22 +62,30 @@ const categoriesJs = () => {
 };
 
 const pageJs = () => {
-  return concatJs([
-      `${JS_SRC}/commons/*.js`,
-      `${JS_SRC}/utils/checkbox.js`,
-      `${JS_SRC}/utils/img-extra.js`,
-      `${JS_SRC}/utils/clipboard.js`,
-      `${JS_SRC}/utils/smooth-scroll.js`
-    ], 'page'
-  );
+    return concatJs([
+            `${JS_SRC}/commons/*.js`,
+            `${JS_SRC}/utils/img-extra.js`,
+            `${JS_SRC}/utils/clipboard.js`,
+            `${JS_SRC}/utils/smooth-scroll.js`
+        ], 'page'
+    );
+};
+
+const miscJs = () => {
+    return concatJs([
+            `${JS_SRC}/commons/*.js`,
+            `${JS_SRC}/utils/locale-datetime.js`
+        ], 'misc'
+    );
 };
 
 // GA pageviews report
 const pvreportJs = () => {
-  return concatJs(`${JS_SRC}/utils/pageviews.js`, 'pvreport');
+    return concatJs(`${JS_SRC}/utils/pageviews.js`, 'pvreport');
 };
 
-const buildJs = parallel(commonsJs, homeJs, postJs, categoriesJs, pageJs, pvreportJs);
+const buildJs = parallel(
+    commonsJs, homeJs, postJs, categoriesJs, pageJs, miscJs, pvreportJs);
 
 exports.build = series(buildJs, minifyJs);
 
@@ -86,8 +94,7 @@ exports.liveRebuild = () => {
 
   watch([
       `${ JS_SRC }/commons/*.js`,
-      `${ JS_SRC }/utils/*.js`,
-      `${ JS_SRC }/lib/*.js`
+          `${JS_SRC}/utils/*.js`
     ],
     buildJs
   );
