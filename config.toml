@@ -80,10 +80,15 @@ name = "Projects"
 weight = 3
 url = "projects/"
 
+[[menu.main]]
+name = "Books"
+weight = 4
+url = "books/"
+
 #
 #[[menu.main]]
 #name = "Contact me"
-#weight = 4
+#weight = 10
 #url = "contact/"
 
 [markup.goldmark.renderer]
