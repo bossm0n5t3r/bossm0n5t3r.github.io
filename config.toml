@@ -61,9 +61,6 @@ url = "https://github.com/bossm0n5t3r/"
 [services.googleAnalytics]
 ID = "G-95QLXL4ME6"
 
-[params.googleTagManager]
-id = "G-95QLXL4ME6"
-
 # Menu links
 #[[menu.main]]
 #name = "About"
@@ -96,46 +93,3 @@ unsafe = true
 
 [markup.highlight]
 style = "github-dark"
-
-[sitemap]
-changeFreq = 'always'
-filename = 'sitemap.xml'
-priority = -1
-
-[params.csp]
-childsrc = ["'self'"]
-fontsrc = [
-    "'self'",
-    "https://fonts.gstatic.com",
-    "https://cdn.jsdelivr.net/"
-]
-formaction = ["'self'"]
-framesrc = [
-    "'self'",
-    "https://giscus.app"
-]
-imgsrc = [
-    "'self'",
-    "https://www.google-analytics.com"
-]
-objectsrc = ["'none'"]
-stylesrc = [
-    "'self'",
-    "'unsafe-inline'",
-    "https://giscus.app",
-    "https://fonts.googleapis.com/",
-    "https://cdn.jsdelivr.net/"
-]
-scriptsrc = [
-    "'self'",
-    "'unsafe-inline'",
-    "https://cdn.jsdelivr.net/",
-    "https://giscus.app",
-    "https://www.google-analytics.com",
-    "https://www.googletagmanager.com"
-]
-prefetchsrc = ["'self'"]
-connectsrc = [
-    "'self'",
-    "https://www.google-analytics.com"
-]
