@@ -36,7 +36,5 @@ series = ["Article Weekly"]
 ## References
 
 - [Introduction](https://webrtcforthecurious.com/)
-
 - [SSH-Snake: Automatic traversal of networks using SSH private keys](https://joshua.hu/ssh-snake-ssh-network-traversal-discover-ssh-private-keys-network-graph)
-
 - [The Illustrated TLS 1.2 Connection](https://tls12.xargs.org/)
