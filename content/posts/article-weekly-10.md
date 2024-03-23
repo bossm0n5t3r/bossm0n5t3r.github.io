@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-03-03` ~ `2024-03-09`
+
 ## What is Sustaining Engineering?
 
 - 지속 엔지니어링이란 무엇인가요?
