@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-01-07` ~ `2024-01-13`
+
 ## 개요
 
 - [WebRTC For The Curious](https://webrtcforthecurious.com/)
