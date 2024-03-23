@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-02-25` ~ `2024-03-02`
+
 ## **How to change a system (18 ways)**
 
 - 이 웹 페이지의 핵심 콘텐츠는 시스템적 사고와 전략에 대한 내용을 다루고 있음
