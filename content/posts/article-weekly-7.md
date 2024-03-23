@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-02-11` ~ `2024-02-17`
+
 ## **Falsehoods programmers believe about time zones**
 
 - 시간대와 관련해서 프로그래밍 할 때 발생할 수 있는 오해들에 대해서 정리한 아티클이다.
