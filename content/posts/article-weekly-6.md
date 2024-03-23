@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-02-04` ~ `2024-02-10`
+
 ## Best of 2023: 5 Microservices Design Patterns Every DevOps Team Should Know
 
 - 대부분 들어본 내용들이라 익숙했지만, 한 번 더 정리하는 계기가 되어서 좋았다.
