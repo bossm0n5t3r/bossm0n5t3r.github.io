@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-01-28` ~ `2024-02-03`
+
 ## 개요
 
 - [The Big Little Guide to Message Queues](https://sudhir.io/the-big-little-guide-to-message-queues)
