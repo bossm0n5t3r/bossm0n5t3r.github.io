@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-02-18` ~ `2024-02-24`
+
 ## **Implementing Closing the Books pattern**
 
 - 웹 페이지는 이벤트 소싱과 "Closing the Books" 패턴에 대해 상세히 설명하고 있음
