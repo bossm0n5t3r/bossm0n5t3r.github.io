@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-01-01` ~ `2024-01-06`
+
 ## 개요
 
 - 이번 1주차 (1/1 ~ 1/6) 사이에 읽은 아티클 중 하나는 푸시에 대한 아티클 ([”**Push Notifications - What to Push, What Not to Push, and How Often”**](https://eugeneyan.com/writing/push/))이다.
