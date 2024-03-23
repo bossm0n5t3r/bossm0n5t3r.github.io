@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-01-21` ~ `2024-01-27`
+
 ## 개요
 
 - 이번 주는 유독 많았다. 우열을 가리기 힘들 정도…
