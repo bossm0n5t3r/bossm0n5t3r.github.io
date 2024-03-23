@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-01-14` ~ `2024-01-20`
+
 ## 개요
 
 - [Understanding x86_64 Paging](https://zolutal.github.io/understanding-paging/)
