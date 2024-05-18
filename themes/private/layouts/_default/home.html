@@ -1,7 +1,6 @@
-{{ define "main" }}
-  {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
-{{ end }}
+{{ define "main" }} {{ range site.RegularPages }}
+<li>
+  {{ .Date | time.Format site.Params.theme_config.date_format }} -
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+</li>
+{{ end }} {{ end }}
