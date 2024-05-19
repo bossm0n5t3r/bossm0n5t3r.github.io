@@ -1,6 +1,2 @@
-{{ define "main" }} {{ range site.RegularPages }}
-<li>
-  {{ .Date | time.Format site.Params.theme_config.date_format }} -
-  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-</li>
-{{ end }} {{ end }}
+{{ define "main" }} {{ partial "menu_item.html" (dict "context" . "collection"
+$.Site.Data.menu.entries) }} {{ end }}

@@ -1,0 +1,64 @@
+[[entries]]
+title = "Info"
+
+[[entries.entries]]
+title = "The archive that records everything"
+
+[[entries.entries]]
+title = "Github"
+url = "https://github.com/bossm0n5t3r/"
+
+[[entries.entries]]
+title = "LinkedIn"
+url = "https://www.linkedin.com/in/zhoon-kim/"
+
+[[entries]]
+title = "Posts"
+
+[entries.post_list]
+limit = 5
+section = "posts"
+show_more = true
+show_more_text = "See more posts..."
+show_more_url = "posts"
+
+[[entries]]
+title = "Projects"
+
+[entries.post_list]
+limit = 5
+section = "projects"
+show_more = true
+show_more_text = "See more projects..."
+show_more_url = "projects"
+
+[[entries]]
+title = "Books"
+
+[entries.post_list]
+limit = 5
+section = "books"
+show_more = true
+show_more_text = "See more books..."
+show_more_url = "books"
+
+[[entries]]
+title = "RSS"
+url = "index.xml"
+
+[[entries]]
+title = "another list"
+
+[[entries.entries]]
+title = "with subitems"
+
+[[entries.entries.entries]]
+title = "with subsubitems"
+
+[[entries.entries.entries]]
+title = "example page"
+url = "about"
+
+[[entries]]
+title = "PRO TIP"
+entries = [{ title = "to edit this menu, edit data/menu.toml file" }]
