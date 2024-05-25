@@ -1,6 +1,6 @@
 +++
 date = 2024-05-26T01:50:00+09:00
-title = "Article Weekly 21"
+title = "Article Weekly, Issue 21"
 authors = ["Ji-Hoon Kim"]
 tags = ["Article", "Weekly"]
 categories = ["Article", "Weekly"]
