@@ -1,5 +1,6 @@
 +++ 
 date = 2024-04-07T03:00:00+09:00
+lastmod = 2024-07-21
 title = "About me"
 slug = "about"
 +++
