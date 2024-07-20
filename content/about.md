@@ -4,8 +4,6 @@ title = "About me"
 slug = "about"
 +++
 
-## 김지훈, Back End Engineer
-
 - 수학을 좋아함
   - 알고리즘을 좋아함
 - 백엔드 개발자를 하고 있음
