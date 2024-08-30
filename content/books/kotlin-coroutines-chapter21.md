@@ -3,7 +3,7 @@ date = 2024-03-02T04:15:00+09:00
 title = "[Kotlin Coroutines] 21장. 플로우 만들기"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 원시값을 가지는 플로우
 

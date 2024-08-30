@@ -3,7 +3,7 @@ date = 2023-12-23T02:40:00+09:00
 title = "[Kotlin Coroutines] 3장. 중단은 어떻게 작동할까?"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

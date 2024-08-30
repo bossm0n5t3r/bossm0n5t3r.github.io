@@ -3,7 +3,7 @@ date = 2024-02-17T21:50:00+09:00
 title = "[Kotlin Coroutines] 17장. 셀렉트"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## introduction
 

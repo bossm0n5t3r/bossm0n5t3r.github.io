@@ -3,7 +3,7 @@ date = 2024-03-24T15:40:00+09:00
 title = "[Kotlin Coroutines] 25장. 플로우 테스트하기"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## Note
 

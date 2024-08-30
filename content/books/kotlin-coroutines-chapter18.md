@@ -3,7 +3,7 @@ date = 2024-02-23T02:00:00+09:00
 title = "[Kotlin Coroutines] 18장. 핫 데이터 소스와 콜드 데이터 소스"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## introduction
 

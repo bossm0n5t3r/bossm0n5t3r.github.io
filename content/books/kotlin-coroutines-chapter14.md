@@ -3,7 +3,7 @@ date = 2024-02-08T15:05:00+09:00
 title = "[Kotlin Coroutines] 14장. 공유 상태로 인한 문제"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

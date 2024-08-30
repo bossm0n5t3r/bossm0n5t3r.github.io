@@ -3,7 +3,7 @@ date = 2023-12-23T02:20:00+09:00
 title = "[Kotlin Coroutines] 1장. 코틀린 코루틴을 배워야 하는 이유"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

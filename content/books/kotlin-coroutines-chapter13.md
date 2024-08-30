@@ -3,7 +3,7 @@ date = 2024-02-08T15:00:00+09:00
 title = "[Kotlin Coroutines] 13장. 코루틴 스코프 만들기"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## CoroutineScope 팩토리 함수
 

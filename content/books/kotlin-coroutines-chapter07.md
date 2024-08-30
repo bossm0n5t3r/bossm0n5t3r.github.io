@@ -3,7 +3,7 @@ date = 2024-01-06T23:40:21+09:00
 title = "[Kotlin Coroutines] 7장. 코루틴 컨텍스트" 
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

@@ -3,7 +3,7 @@ date = 2023-12-23T02:50:00+09:00
 title = "[Kotlin Coroutines] 5장. 코루틴: 언어 차원에서의 지원 vs 라이브러리"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

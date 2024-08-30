@@ -3,7 +3,7 @@ date = 2024-01-19T23:00:00+09:00
 title = "[Kotlin Coroutines] 11장. 코루틴 스코프 함수"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 코루틴 스코프 함수가 소개되기 전에 사용한 방법들
 

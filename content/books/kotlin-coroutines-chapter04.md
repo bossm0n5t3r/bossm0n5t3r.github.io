@@ -3,7 +3,7 @@ date = 2023-12-23T02:45:00+09:00
 title = "[Kotlin Coroutines] 4장. 코루틴의 실제 구현"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

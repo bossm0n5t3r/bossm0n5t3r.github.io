@@ -3,7 +3,7 @@ date = 2024-02-17T21:44:00+09:00
 title = "[Kotlin Coroutines] 16장. 채널"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## introduction
 

@@ -3,7 +3,7 @@ date = 2024-02-23T02:05:00+09:00
 title = "[Kotlin Coroutines] 20장. 플로우의 실제 구현"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## introduction
 

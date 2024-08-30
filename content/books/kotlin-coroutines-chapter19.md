@@ -3,7 +3,7 @@ date = 2024-02-23T02:03:00+09:00
 title = "[Kotlin Coroutines] 19장. 플로우란 무엇인가?"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## introduction
 

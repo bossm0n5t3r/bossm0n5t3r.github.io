@@ -3,7 +3,7 @@ date = 2024-03-02T04:20:00+09:00
 title = "[Kotlin Coroutines] 22장. 플로우 생존주기 함수"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## Introduction
 

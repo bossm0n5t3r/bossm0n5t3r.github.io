@@ -3,7 +3,7 @@ date = 2024-01-06T23:30:00+09:00
 title = "[Kotlin Coroutines] 6장. 코루틴 빌더"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

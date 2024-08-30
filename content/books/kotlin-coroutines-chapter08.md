@@ -3,7 +3,7 @@ date = 2024-01-07T00:30:00+09:00
 title = "[Kotlin Coroutines] 8장. 잡과 자식 코루틴 기다리기"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 개요
 

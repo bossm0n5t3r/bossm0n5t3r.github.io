@@ -3,7 +3,7 @@ date = 2024-03-24T15:35:00+09:00
 title = "[Kotlin Coroutines] 24장. 공유 플로우와 상태 플로우"
 +++
 
-<img src="/images/books/kotlin-coroutines/cover.webp" width="400px">
+![](/images/books/kotlin-coroutines/cover.webp)
 
 ## 공유 플로우
 
