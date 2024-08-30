@@ -8,7 +8,6 @@ categories = ["Mathematics", "Graph Theory", "DAG", "Git"]
 
 <img src="/images/posts/what-is-a-dag/jeswin-thomas-hecib2an4T4-unsplash.jpg">
 
-
 ## Q. DAG가 뭔가요?
 
 A : DAG는 ~~다들 아시다시피~~ **directed acyclic graph** 입니다.
