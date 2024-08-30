@@ -3,7 +3,7 @@ date = 2024-03-10T03:01:00+09:00
 title = "[Clean Architecture] 8장. OCP: 개방-폐쇄 원칙"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

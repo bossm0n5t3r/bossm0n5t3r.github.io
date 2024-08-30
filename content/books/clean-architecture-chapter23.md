@@ -3,7 +3,7 @@ date = 2024-04-18T23:30:00+09:00
 title = "[Clean Architecture] 23장. 프레젠터와 험블 객체"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

@@ -3,7 +3,7 @@ date = 2024-04-09T23:59:00+09:00
 title = "[Clean Architecture] 17장. 경계: 선 긋기"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

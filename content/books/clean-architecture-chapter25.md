@@ -3,7 +3,7 @@ date = 2024-04-19T00:50:00+09:00
 title = "[Clean Architecture] 25장. 계층과 경계"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

@@ -3,7 +3,7 @@ date = 2024-05-15T18:33:30+09:00
 title = "[Clean Architecture] 33장. 사례 연구: 비디오 판매"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

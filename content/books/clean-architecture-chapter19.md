@@ -3,7 +3,7 @@ date = 2024-04-10T00:37:00+09:00
 title = "[Clean Architecture] 19장. 정책과 수준"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

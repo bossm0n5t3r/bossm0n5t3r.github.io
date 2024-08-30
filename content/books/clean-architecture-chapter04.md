@@ -3,7 +3,7 @@ date = 2024-03-10T00:03:00+09:00
 title = "[Clean Architecture] 4장. 구조적 프로그래밍"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## 증명
 

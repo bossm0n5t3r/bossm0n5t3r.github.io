@@ -3,7 +3,7 @@ date = 2024-02-18T19:50:00+09:00
 title = "[Clean Architecture] 2장. 두 가지 가치에 대한 이야기"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## introduction
 

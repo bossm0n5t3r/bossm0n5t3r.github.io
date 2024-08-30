@@ -3,7 +3,7 @@ date = 2024-04-10T00:39:00+09:00
 title = "[Clean Architecture] 20장. 업무 규칙"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

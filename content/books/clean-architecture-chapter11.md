@@ -3,7 +3,7 @@ date = 2024-03-10T03:07:00+09:00
 title = "[Clean Architecture] 11장. DIP: 의존성 역전 원칙"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## Introduction
 

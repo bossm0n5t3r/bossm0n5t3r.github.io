@@ -3,7 +3,7 @@ date = 2024-03-10T00:07:00+09:00
 title = "[Clean Architecture] 6장. 함수형 프로그래밍"
 +++
 
-<img src="/images/books/clean-architecture/cover.jpg">
+![](/images/books/clean-architecture/cover.jpg)
 
 ## 정수를 제곱하기
 
