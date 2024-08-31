@@ -1,10 +1,13 @@
 +++
 date = 2023-12-01T01:00:00+09:00
+lastmod = 2024-09-01
 title = "Testcontainers With Kotlin and Spring Data R2DBC"
 authors = ["Ji-Hoon Kim"]
 tags = ["Spring Data R2DBC", "R2DBC", "Kotlin", "Testcontainers", "Testing"]
 categories = ["Spring Data R2DBC", "R2DBC", "Kotlin", "Testcontainers", "Testing"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 ## 개요
 
