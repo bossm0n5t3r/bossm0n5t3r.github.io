@@ -1,11 +1,14 @@
 +++ 
 date = 2023-08-09T22:00:00+09:00
+lastmod = 2024-09-01
 title = "[Kotlin] 소수점 이하 자릿수 구하는 방법"
 authors = ["Ji-Hoon Kim"]
 tags = ["Kotlin"]
 categories = ["Kotlin"]
 series = ["Kotlin"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 간단한 두 가지 방법이 있다.
 
