@@ -1,11 +1,14 @@
 +++
-title = "Use Elvis Operator Continuously in Kotlin"
 date = 2024-05-20T03:00:00+09:00
+lastmod = 2024-09-01
+title = "Use Elvis Operator Continuously in Kotlin"
 authors = ["Ji-Hoon Kim"]
 tags = ["Kotlin"]
 categories = ["Kotlin"]
 series = ["Kotlin"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 ## Introduction
 
