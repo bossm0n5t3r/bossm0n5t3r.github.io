@@ -1,11 +1,14 @@
 +++
 date = 2024-07-15T22:00:00+09:00
+lastmod = 2024-09-01
 title = "테스트 코드에서 시간을 자유롭게 다뤄보자"
 authors = ["Ji-Hoon Kim"]
 tags = ["Kotlin", "Testing"]
 categories = ["Kotlin", "Testing"]
 series = ["Kotlin", "Testing"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 ## 개요
 
