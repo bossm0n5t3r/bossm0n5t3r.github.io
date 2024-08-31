@@ -96,8 +96,3 @@ lineNumbersInTable = true
 noClasses = true
 style = 'github-dark'
 tabWidth = 4
-
-[markup]
-[markup.goldmark]
-[markup.goldmark.renderer]
-unsafe = true
