@@ -1,10 +1,11 @@
 +++
 date = 2024-09-01T01:30:00+09:00
+lastmod = 2024-09-01
 title = "Kotlin으로 유저 Input 테스트 코드 작성하기"
 authors = ["Ji-Hoon Kim"]
-tags = ["Kotlin"]
-categories = ["Kotlin"]
-series = ["Kotlin"]
+tags = ["Kotlin", "Testing"]
+categories = ["Kotlin", "Testing"]
+series = ["Kotlin", "Testing"]
 +++
 
 ![](/images/logos/kotlin-logo.png)
