@@ -1,10 +1,13 @@
 +++ 
 date = 2023-11-10T23:00:00+09:00
+lastmod = 2024-09-01
 title = "AWESOME 하게 JSON 검증해보자"
 authors = ["Ji-Hoon Kim"]
 tags = ["JSON", "Kotlin"]
 categories = ["JSON", "Kotlin"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 ## 개요
 
@@ -42,27 +45,15 @@ categories = ["JSON", "Kotlin"]
     "nestedValueFormatIsSame": {
       "differentKey1": {
         "boolean": true,
-        "intList": [
-          0,
-          1
-        ]
+        "intList": [0, 1]
       },
       "differentKey2": {
         "boolean": true,
-        "intList": [
-          0,
-          1,
-          2
-        ]
+        "intList": [0, 1, 2]
       },
       "differentKey3": {
         "boolean": true,
-        "intList": [
-          0,
-          1,
-          2,
-          3
-        ]
+        "intList": [0, 1, 2, 3]
       }
     },
     "mapList": [
