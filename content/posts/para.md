@@ -7,7 +7,7 @@ tags = ["PARA"]
 categories = ["PARA"]
 +++
 
-<img src="/images/posts/para/main.jpg">
+![](/images/posts/para/main.jpg)
 
 ## 개요
 
@@ -19,9 +19,9 @@ PARA 는 모든 플랫폼에서 모든 유형의 디지털 정보를 구성할 �
 
 ## 사용법
 
-<img src="/images/posts/para/PARA.jpg">
+![](/images/posts/para/PARA.jpg)
 
-<img src="/images/posts/para/PARA-hierarchy.jpeg">
+![](/images/posts/para/PARA-hierarchy.jpeg)
 
 노트의 최상위 계층을 Project, Area, Resource, Archive 로 나누는 것
 
