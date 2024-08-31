@@ -6,7 +6,7 @@ tags = ["feedback", "technique"]
 categories = ["feedback", "technique"]
 +++
 
-<img src="/images/posts/plussing/main.jpg">
+![](/images/posts/plussing/main.jpg)
 
 ## 개요
 
@@ -15,15 +15,15 @@ categories = ["feedback", "technique"]
 ## 플러싱 테크닉이란?
 
 > Rather than randomly critique a sketch or shoot down an idea,
-> 
+>
 > (스케치를 무작위로 비평하거나 아이디어를 폄하하는 대신,)
-> 
+>
 > the general rule is that **you may only criticize an idea if you also add a constructive suggestion**.
-> 
+>
 > (건설적인 제안도 추가하는 경우에만 아이디어를 비판할 수 있다는 것이 일반적인 규칙입니다.)
 >
 > Hence the name plussing.
-> 
+>
 > (따라서 이름은 plussing입니다.)
 >
 > - Daniel Gogek (2014)
@@ -35,11 +35,13 @@ categories = ["feedback", "technique"]
 ### 문제에서 사람들을 분리하기
 
 플러싱 방법으로 피드백을 제공할 때는 사람이 아니라 아이디어에 집중
+
 - "이 부분을 잘못 하셨네요" -> "이 부분이 명확하지 않아 보입니다."
 
 ### 건설적인 제안 덧붙이기
 
 비판을 제기한 다음에는 개선을 위한 구체적인 제안을 제공
+
 - 더하는(`+`) 행위 -> 플러싱 (`plus` + `-sing`)
 
 건설적인 제안은 문제의 해결책이 될 거라 생각하는 방안에 대한 맥락을 추가로 제공
