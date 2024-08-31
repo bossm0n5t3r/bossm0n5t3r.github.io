@@ -6,7 +6,7 @@ tags = ["GitHub", "SSH"]
 categories = ["GitHub", "SSH"]
 +++
 
-<img src="/images/logos/GitHub_Logo.png">
+![](/images/logos/GitHub_Logo.png)
 
 ## SSH 키들을 생성
 
