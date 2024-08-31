@@ -6,7 +6,7 @@ tags = ["Mathematics", "Graph Theory", "DAG", "Git"]
 categories = ["Mathematics", "Graph Theory", "DAG", "Git"]
 +++
 
-<img src="/images/posts/what-is-a-dag/jeswin-thomas-hecib2an4T4-unsplash.jpg">
+![](/images/posts/what-is-a-dag/jeswin-thomas-hecib2an4T4-unsplash.jpg)
 
 ## Q. DAG가 뭔가요?
 
@@ -52,7 +52,7 @@ DAG는 **directed graph** 가 **directed cycles를 가지지 않은 것**이며,
 
 > Def. A DAG is a directed graph that contains no directed cycles
 
-<img src="/images/posts/what-is-a-dag/800px-Tred-G.png" width="400px">
+![](/images/posts/what-is-a-dag/Tred-G.svg)
 
 (Example of a directed acyclic graph, [https://en.wikipedia.org/wiki/Directed_acyclic_graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph))
 
@@ -83,11 +83,11 @@ Directed graph의 **topological ordering** 이란,
 
 즉, 다시 말하면
 
-<img src="/images/posts/what-is-a-dag/correct-topological-sorting.png">
+![](/images/posts/what-is-a-dag/correct-topological-sorting.png)
 
 처럼 선형으로 표현가능하지만, 같은 그래프를
 
-<img src="/images/posts/what-is-a-dag/incorrect-topological-sorting.png">
+![](/images/posts/what-is-a-dag/incorrect-topological-sorting.png)
 
 처럼 정렬하면 안된다는 겁니다.
 
@@ -121,7 +121,7 @@ Directed graph의 **topological ordering** 이란,
 
 ### 명제를 증명해봅시다.
 
-<img src="/images/posts/what-is-a-dag/More_details_be_omitted.jpg" width="400px">
+![](/images/posts/what-is-a-dag/More_details_be_omitted.jpg)
 
 ```latex
 Lemma. For a directed graph G, if G has a topological order, then G is a DAG.
@@ -169,11 +169,11 @@ By induction, the lemma is proven.
 - Genealogy and version history
   - Git branch 의 구조가 DAG네요.
 
-<img src="/images/posts/what-is-a-dag/git-model.png" width="400px">
+![](/images/posts/what-is-a-dag/git-model.png)
 
 - Scheduling
 
-<img src="/images/posts/what-is-a-dag/Pert_chart_colored.svg" width="400px">
+![](/images/posts/what-is-a-dag/Pert_chart_colored.svg)
 
 - Data processing networks
 - Data compression
