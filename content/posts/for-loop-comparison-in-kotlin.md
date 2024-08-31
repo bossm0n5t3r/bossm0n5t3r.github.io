@@ -1,11 +1,14 @@
 +++
 date = 2024-08-01T01:30:00+09:00
+lastmod = 2024-09-01
 title = "For Loop Comparison in Kotlin"
 authors = ["Ji-Hoon Kim"]
 tags = ["Kotlin"]
 categories = ["Kotlin"]
 series = ["Kotlin"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 ## Introduction
 
