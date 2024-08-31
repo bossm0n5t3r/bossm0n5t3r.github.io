@@ -7,7 +7,7 @@ categories = ["Docker"]
 series = ["Docker"]
 +++
 
-<img src="/images/posts/docker-logs/primary-blue-docker-logo.svg">
+![](/images/posts/docker-logs/primary-blue-docker-logo.svg)
 
 AWS EC2 에 배포를 할 때 마다 ECR 의 docker image 를 가져다가 배포를 하는데,
 
