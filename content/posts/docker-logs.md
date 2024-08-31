@@ -7,7 +7,7 @@ categories = ["Docker"]
 series = ["Docker"]
 +++
 
-<img src="/images/posts/docker-logs/primary-blue-docker-logo.svg">
+![](/images/posts/docker-logs/primary-blue-docker-logo.svg)
 
 최근 AWS EC2 를 사이드 프로젝트에 사용하게 되면서, 로그를 확인할 일이 생겼다.
 
