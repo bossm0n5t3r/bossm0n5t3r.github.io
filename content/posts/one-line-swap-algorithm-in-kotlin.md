@@ -1,11 +1,14 @@
 +++
 date = 2023-10-20T11:00:00+09:00
+lastmod = 2024-09-01
 title = "[Kotlin] 한 줄로 swap 하는 방법"
 authors = ["Ji-Hoon Kim"]
 tags = ["Kotlin"]
 categories = ["Kotlin"]
 series = ["Kotlin"]
 +++
+
+![](/images/logos/kotlin-logo.png)
 
 ## 개요
 
