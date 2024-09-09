@@ -48,6 +48,14 @@ figcaption {
 
 pre {
   margin: 0;
+
+  code {
+    background-color: inherit;
+    color: inherit;
+    border-radius: inherit;
+    font-size: inherit;
+    padding: inherit;
+  }
 }
 
 li {
@@ -84,4 +92,12 @@ table tr th:first-child {
 table tr td:last-child,
 table tr th:last-child {
   border-right: 0;
+}
+
+code {
+  background-color: rgba(135, 131, 120, 0.15);
+  color: #eb5757;
+  border-radius: 4px;
+  font-size: 85%;
+  padding: 0.2em 0.4em;
 }
