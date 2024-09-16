@@ -2,7 +2,7 @@ title = "The Archive"
 theme = "private"
 languagecode = "en"
 
-paginate = 20
+pagination.pagerSize = 20
 
 [params]
 author = "Ji-Hoon Kim"
