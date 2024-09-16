@@ -7,6 +7,10 @@ categories = ["Article", "Weekly"]
 series = ["Article Weekly"]
 +++
 
+## Period
+
+`2024-09-01` ~ `2024-09-07`
+
 ## Open Mathematics Depository
 
 - 오픈 수학 저장소
