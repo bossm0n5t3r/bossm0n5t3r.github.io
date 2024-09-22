@@ -111,7 +111,7 @@ series = ["Article Weekly"]
   - 그러나 POST와 달리 이 메소드는 명시적으로 안전하고 멱등성이 있어, 캐싱 및 자동 재시도와 같은 기능을 할 수 있음
 - request
 
-  ```
+  ```text
   QUERY /contacts HTTP/1.1
   Host: example.org
   Content-Type: example/query
@@ -122,7 +122,7 @@ series = ["Article Weekly"]
 
 - response
 
-  ```
+  ```text
   HTTP/1.1 200 OK
   Content-Type: text/csv
   Content-Location: /contacts/responses/42
