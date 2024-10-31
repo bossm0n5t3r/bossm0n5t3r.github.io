@@ -5,19 +5,24 @@ document.addEventListener('DOMContentLoaded', function () {
     if (codeBlock.className) {
       var highlight = codeBlock.parentElement;
 
-      while (highlight.tagName !== 'DIV') {
+      while (highlight.className !== 'highlight') {
         highlight = highlight.parentElement;
       }
 
       if (highlight) {
-        var button = document.createElement('button');
-        button.className = 'copy-code-button';
-        button.type = 'button';
-        button.innerText = 'Copy';
+        var codeCopyContainer = document.createElement('div');
+        codeCopyContainer.className = 'code-copy-container';
 
-        highlight.parentNode.insertBefore(button, highlight);
+        var codeCopyButton = document.createElement('button');
+        codeCopyButton.className = 'code-copy-button';
+        codeCopyButton.type = 'button';
+        codeCopyButton.innerText = 'Copy';
 
-        button.addEventListener('click', function () {
+        codeCopyContainer.appendChild(codeCopyButton);
+
+        highlight.parentNode.insertBefore(codeCopyContainer, highlight);
+
+        codeCopyButton.addEventListener('click', function () {
           var codeContent = highlight.querySelector('td.code');
           var code = codeContent
             ? codeContent.textContent
@@ -25,13 +30,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
           navigator.clipboard.writeText(code).then(
             function () {
-              button.innerText = 'Copied!';
+              codeCopyButton.innerText = 'Copied!';
               setTimeout(function () {
-                button.innerText = 'Copy';
+                codeCopyButton.innerText = 'Copy';
               }, 2000);
             },
             function (error) {
-              button.innerText = 'Error';
+              codeCopyButton.innerText = 'Error';
             },
           );
         });

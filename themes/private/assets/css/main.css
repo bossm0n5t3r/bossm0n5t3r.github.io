@@ -102,15 +102,18 @@ code {
   padding: 0.2em 0.4em;
 }
 
-.copy-code-button {
-  font-size: 0.8em;
-  float: right;
+.code-copy-container {
+  text-align: right;
 }
 
-.copy-code-button:hover {
+.code-copy-button {
+  font-size: 0.8em;
+}
+
+.code-copy-button:hover {
   cursor: pointer;
 }
 
-.copy-code-button:focus {
+.code-copy-button:focus {
   outline: 0;
 }
