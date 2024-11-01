@@ -48,6 +48,7 @@ figcaption {
 
 pre {
   margin: 0;
+  overflow-x: auto;
 
   code {
     background-color: inherit;
