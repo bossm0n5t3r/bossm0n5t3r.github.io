@@ -30,6 +30,13 @@ show_more_text = "See more posts..."
 show_more_url = "posts"
 
 [[entries]]
+title = "Recent Updated Posts"
+
+[entries.recent_updated_post_list]
+limit = 3
+section = "posts"
+
+[[entries]]
 title = "Projects"
 
 [entries.post_list]
