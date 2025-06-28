@@ -15,9 +15,3 @@ hugo new posts/post-name.md
 ```shell
 hugo server
 ```
-
-## TO-DO
-
-- [ ] Add "About"
-- [ ] Add "Projects"
-- [ ] Add "Contact me"
