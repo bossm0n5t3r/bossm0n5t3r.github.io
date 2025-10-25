@@ -118,3 +118,15 @@ code {
 .code-copy-button:focus {
   outline: 0;
 }
+
+.footnote-ref::before {
+  content: '[';
+}
+
+.footnote-ref::after {
+  content: ']';
+}
+
+.footnote-ref + .footnote-ref::before {
+  content: ', [';
+}
