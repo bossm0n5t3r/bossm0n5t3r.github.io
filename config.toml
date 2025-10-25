@@ -100,3 +100,5 @@ tabWidth = 4
 [markup]
 [markup.goldmark]
 renderer.unsafe = true
+[markup.goldmark.extensions]
+footnote = true
