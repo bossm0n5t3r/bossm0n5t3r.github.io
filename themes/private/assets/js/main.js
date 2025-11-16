@@ -2,45 +2,85 @@ console.log('The archive that records everything');
 
 document.addEventListener('DOMContentLoaded', function () {
   document.querySelectorAll('pre > code').forEach(function (codeBlock) {
-    if (codeBlock.className) {
-      var highlight = codeBlock.parentElement;
+    if (!codeBlock.className) {
+      return;
+    }
 
-      while (highlight.className !== 'highlight') {
-        highlight = highlight.parentElement;
-      }
+    if (codeBlock.className.includes('mermaid')) {
+      return;
+    }
 
-      if (highlight) {
-        var codeCopyContainer = document.createElement('div');
-        codeCopyContainer.className = 'code-copy-container';
+    let highlight = codeBlock.parentElement;
 
-        var codeCopyButton = document.createElement('button');
-        codeCopyButton.className = 'code-copy-button';
-        codeCopyButton.type = 'button';
-        codeCopyButton.innerText = 'Copy';
+    while (highlight && !highlight.classList.contains('highlight')) {
+      highlight = highlight.parentElement;
+    }
 
-        codeCopyContainer.appendChild(codeCopyButton);
+    if (!highlight) {
+      return;
+    }
 
-        highlight.parentNode.insertBefore(codeCopyContainer, highlight);
+    // 중복 버튼 생성 방지
+    const prevSibling = highlight.previousSibling;
+    if (prevSibling &&
+        prevSibling.nodeType === 1 &&
+        prevSibling.classList.contains('code-copy-container')) {
+      return;
+    }
 
-        codeCopyButton.addEventListener('click', function () {
-          var codeContent = highlight.querySelector('td.code');
-          var code = codeContent
-            ? codeContent.textContent
-            : codeBlock.textContent;
+    const codeCopyContainer = document.createElement('div');
+    codeCopyContainer.className = 'code-copy-container';
 
-          navigator.clipboard.writeText(code).then(
+    const codeCopyButton = document.createElement('button');
+    codeCopyButton.className = 'code-copy-button';
+    codeCopyButton.type = 'button';
+    codeCopyButton.innerText = 'Copy';
+
+    codeCopyContainer.appendChild(codeCopyButton);
+
+    highlight.parentNode.insertBefore(codeCopyContainer, highlight);
+
+    codeCopyButton.addEventListener('click', function () {
+      const codeContent = highlight.querySelector('td.code');
+      const code = codeContent
+          ? codeContent.textContent
+          : codeBlock.textContent;
+
+      // 클립보드 API 사용 가능 여부 확인
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        navigator.clipboard.writeText(code).then(
             function () {
               codeCopyButton.innerText = 'Copied!';
               setTimeout(function () {
                 codeCopyButton.innerText = 'Copy';
               }, 2000);
             },
-            function (error) {
+            function () {
               codeCopyButton.innerText = 'Error';
+              setTimeout(function () {
+                codeCopyButton.innerText = 'Copy';
+              }, 2000);
             },
-          );
-        });
+        );
+      } else {
+        // 대체 방법 (구형 브라우저용)
+        const textArea = document.createElement('textarea');
+        textArea.value = code;
+        textArea.style.position = 'fixed';
+        textArea.style.opacity = '0';
+        document.body.appendChild(textArea);
+        textArea.select();
+        try {
+          document.execCommand('copy');
+          codeCopyButton.innerText = 'Copied!';
+        } catch (err) {
+          codeCopyButton.innerText = 'Error';
+        }
+        document.body.removeChild(textArea);
+        setTimeout(function () {
+          codeCopyButton.innerText = 'Copy';
+        }, 2000);
       }
-    }
+    });
   });
 });
