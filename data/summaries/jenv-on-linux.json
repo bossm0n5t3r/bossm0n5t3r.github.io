@@ -1,0 +1,6 @@
+{
+  "title": "jenv-on-linux",
+  "key": "jenv-on-linux",
+  "summary": "- 이 글은 Linux 환경에서 jEnv를 설정하는 방법을 설명한다.  \n- `which java`와 `readlink -f` 명령어로 현재 Java 경로를 확인한다.  \n- `jenv add` 명령어로 여러 JDK 버전을 jEnv에 등록한다.  \n- `jenv versions`로 등록된 JDK 버전을 확인할 수 있다.  \n- `jenv global` 명령어로 기본 JDK 버전을 설정하고 `java --version`으로 확인한다.  \n- 설정 후 `JAVA_HOME` 환경변수가 jEnv 경로로 제대로 지정되는 것을 확인한다.",
+  "updatedAt": "2025-11-22T15:36:39.549Z"
+}

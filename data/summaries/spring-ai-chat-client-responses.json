@@ -1,0 +1,6 @@
+{
+  "title": "spring-ai-chat-client-responses",
+  "key": "spring-ai-chat-client-responses",
+  "summary": "- Spring AI ChatClient API는 ChatResponse 반환, 엔티티 반환, 스트리밍 응답의 세 가지 응답 방식을 제공한다.  \n- ChatResponse는 메타데이터와 생성 결과를 포함하는 기본 응답 타입으로, 간단한 호출로 결과와 메타데이터를 확인할 수 있다.  \n- entity() 메서드를 사용하면 AI 출력 결과를 Kotlin 데이터 클래스 같은 엔티티에 매핑하여 반환할 수 있으며, 제네릭 타입도 ParameterizedTypeReference로 처리 가능하다.  \n- stream() 메서드를 활용하면 비동기 스트리밍 방식으로 문자열이나 ChatResponse 객체를 실시간으로 받아 처리할 수 있다.  \n- 스트리밍 응답은 서버에서 텍스트 이벤트 스트림 형식으로 전송되며, 컨트롤러에서 MediaType.TEXT_EVENT_STREAM_VALUE로 처리한다.  \n- 이 세 가지 방식은 각각의 상황에 맞게 응답 데이터를 구조화하거나 실시간으로 처리하는 데 유용하게 활용할 수 있다.",
+  "updatedAt": "2025-11-22T15:37:47.478Z"
+}

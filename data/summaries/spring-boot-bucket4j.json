@@ -1,0 +1,6 @@
+{
+  "title": "spring-boot-bucket4j",
+  "key": "spring-boot-bucket4j",
+  "summary": "- Bucket4j는 Token bucket 알고리즘 기반의 라이브러리로, Spring Boot 환경에서 API Rate Limiting 구현에 활용할 수 있다.  \n- 사용자 인증 토큰(JWT)에서 UserRole을 추출해 각 역할별로 다른 Rate Limiting 정책을 적용하는 구조로 설계되었다.  \n- WebFlux 환경에서는 WebFilter를, Spring MVC 환경에서는 HandlerInterceptor를 사용해 요청마다 토큰을 검사하고 버킷 상태에 따라 요청 허용 여부를 결정한다.  \n- 요청이 허용되면 남은 토큰 수를 `X-Rate-Limit-Remaining` 헤더에, 초과 시에는 429 상태코드와 `X-Rate-Limit-Retry-After-Seconds` 헤더로 재시도 대기 시간을 응답한다.  \n- 구현 예제는 GitHub 레포지토리(https://github.com/bossm0n5t3r/spring-boot-bucket4j)에 멀티 모듈 형태로 공개되어 있어 참고 가능하며, Redis 캐시 적용 등 확장도 가능하다.",
+  "updatedAt": "2025-11-22T15:38:00.784Z"
+}

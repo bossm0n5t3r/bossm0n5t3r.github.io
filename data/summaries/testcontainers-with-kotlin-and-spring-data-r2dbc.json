@@ -1,0 +1,6 @@
+{
+  "title": "testcontainers-with-kotlin-and-spring-data-r2dbc",
+  "key": "testcontainers-with-kotlin-and-spring-data-r2dbc",
+  "summary": "- Kotlin과 Spring Data R2DBC 환경에서 Testcontainers를 적용하는 과정에서 기존 설정이 쉽게 맞지 않아 새로 설정하는 방법을 정리했다.  \n- 최신 버전의 R2DBC, PostgreSQL, H2, Testcontainers 의존성을 사용하며, `schema.sql` 파일을 로드하는 `ConnectionFactoryInitializer` 빈을 테스트 설정에 추가했다.  \n- PostgreSQL과 Redis 컨테이너를 Testcontainers로 띄우고, R2DBC URL에 `r2dbc:tc:` 접두사와 `TC_IMAGE_TAG` 쿼리 파라미터를 붙여 동적으로 프로퍼티를 등록했다.  \n- 테스트 코드에서는 환경 변수로 설정된 R2DBC URL이 올바르게 구성되었는지와 `schema.sql`에 정의된 테이블에 데이터 저장 및 조회가 정상 동작하는지 검증했다.  \n- 이번 경험을 통해 Spring Data R2DBC와 Testcontainers 통합 테스트 작성 시 주의할 점과 설정 방법을 공유하며, 관련 참고 링크도 함께 제공했다.",
+  "updatedAt": "2025-11-22T15:38:04.374Z"
+}

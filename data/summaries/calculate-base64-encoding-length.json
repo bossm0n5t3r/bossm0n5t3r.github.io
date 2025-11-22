@@ -1,0 +1,6 @@
+{
+  "title": "calculate-base64-encoding-length",
+  "key": "calculate-base64-encoding-length",
+  "summary": "- Base64 인코딩은 원래 문자열의 3바이트를 4개의 문자로 변환한다.  \n- Base64의 각 문자는 6비트로 표현되며, 3바이트(24비트)는 4개의 6비트 문자로 나뉜다.  \n- 따라서 길이가 n인 문자열을 Base64 인코딩하면 대략 4 * (n/3) 문자가 필요하다.  \n- 실제 계산 시에는 4 * ceil(n/3)로 인코딩 길이를 구할 수 있다.  \n- 이 계산법은 Base64 인코딩 길이를 빠르게 예측하는 데 유용하다.",
+  "updatedAt": "2025-11-22T15:35:56.988Z"
+}

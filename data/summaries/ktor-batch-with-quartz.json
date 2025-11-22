@@ -1,0 +1,6 @@
+{
+  "title": "ktor-batch-with-quartz",
+  "key": "ktor-batch-with-quartz",
+  "summary": "- Ktor는 경량 코틀린 서버 프레임워크로, Quartz 스케줄러를 직접 설정해 배치 작업을 구현해야 한다.  \n- `build.gradle.kts`와 `libs.versions.toml`에 Quartz 의존성을 추가하여 프로젝트에 포함시킨다.  \n- Quartz의 `Job` 인터페이스를 구현해 실행할 작업을 정의하고, `SchedulerManager`에서 스케줄러 시작과 종료를 관리한다.  \n- Ktor 애플리케이션 모듈에서 `SchedulerManager.start()`로 스케줄러를 시작하고, 종료 시점에 `SchedulerManager.shutdown()`을 호출해 리소스를 정리한다.  \n- Kubernetes 같은 클러스터 환경에서는 Quartz의 JDBC-JobStore와 클러스터 설정을 통해 여러 인스턴스 간 작업 중복 실행을 방지해야 한다.  \n- 이 글은 Quartz 스케줄러를 Ktor에 통합하는 구체적인 코드와 설정 방법, 실행 로그 예시를 단계별로 설명하고 있다.",
+  "updatedAt": "2025-11-22T15:37:03.443Z"
+}

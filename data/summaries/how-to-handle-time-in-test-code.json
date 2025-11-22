@@ -1,0 +1,6 @@
+{
+  "title": "how-to-handle-time-in-test-code",
+  "key": "how-to-handle-time-in-test-code",
+  "summary": "- 테스트 코드에서 시간을 자유롭게 다루는 방법으로 `Clock Wrapper`를 생성자 주입 후 mocking하는 방식을 소개한다.  \n- `Clock Wrapper`를 사용하면 시간 관련 로직을 쉽게 테스트할 수 있으며, Martin Fowler도 이 방법을 권장한다.  \n- 서비스 로직에 `Clock Wrapper`를 주입하기 어려운 경우, `LocalDate.now()`를 직접 static mocking하는 방법을 사용할 수 있다.  \n- `resetClock` 함수는 `LocalDate.now()`를 원하는 날짜로 모킹하고 테스트 실행 후 모킹을 해제하여 다른 테스트에 영향을 주지 않도록 한다.  \n- 두 방법 모두 테스트 환경에서 시간을 제어할 수 있게 하여 시간 의존적인 로직을 안정적으로 검증할 수 있게 해준다.",
+  "updatedAt": "2025-11-22T15:36:26.068Z"
+}

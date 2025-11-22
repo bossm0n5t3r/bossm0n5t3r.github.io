@@ -1,0 +1,6 @@
+{
+  "title": "introduce-fnm",
+  "key": "introduce-fnm",
+  "summary": "- fnm은 Rust로 만들어진 빠르고 간단한 Node.js 버전 관리자이다.  \n- macOS에서 Homebrew로 쉽게 설치할 수 있고, 환경설정도 간단하다.  \n- fnm은 Node.js LTS 버전을 빠르게 설치하고 관리할 수 있다.  \n- 기존 nvm보다 셸 실행 속도가 훨씬 빠르며 lazy loading이 필요 없다.  \n- 예시 명령어로 `fnm install --lts`, `fnm list`, `fnm --version` 등을 사용할 수 있다.  \n- 자세한 내용과 소스는 GitHub 저장소에서 확인할 수 있다.",
+  "updatedAt": "2025-11-22T15:36:32.209Z"
+}

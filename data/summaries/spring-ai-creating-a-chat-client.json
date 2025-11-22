@@ -1,0 +1,6 @@
+{
+  "title": "spring-ai-creating-a-chat-client",
+  "key": "spring-ai-creating-a-chat-client",
+  "summary": "- Spring AI에서 ChatClient를 생성하는 두 가지 방법은 Autoconfigured ChatClient.Builder 사용과 프로그래밍 방식이다.  \n- `application.yaml`에 `spring.ai.openai.api-key`로 API 키를 설정해야 한다.  \n- Autoconfigured 방식은 `ChatClient.Builder`를 주입받아 `build()` 메서드로 Bean을 생성한다.  \n- 프로그래밍 방식은 API 키를 직접 받아 `OpenAiChatModel`과 `ChatClient.create()`를 통해 생성한다.  \n- 생성된 ChatClient로 `prompt()`, `user()`, `call()`, `content()` 메서드를 사용해 AI 응답을 문자열로 받을 수 있다.  \n- Controller에서 POST 요청을 받아 각각의 ChatClient를 호출하고 JSON 형식으로 응답을 반환하는 구조로 구현한다.",
+  "updatedAt": "2025-11-22T15:37:53.451Z"
+}

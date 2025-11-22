@@ -1,0 +1,6 @@
+{
+  "title": "docker-logs",
+  "key": "docker-logs",
+  "summary": "- AWS EC2에서 Docker 컨테이너 로그를 확인할 때 `docker logs` 명령어를 사용하면 된다.  \n- `docker logs -f --tail 10 {{container-name}}` 명령어로 최근 10줄 로그를 실시간으로 확인할 수 있다.  \n- 주요 옵션으로는 `--follow(-f)`, `--tail(-n)`, `--since`, `--timestamps(-t)`, `--details` 등이 있다.  \n- `--follow` 옵션은 로그를 실시간으로 계속 출력하며, `--tail`은 출력할 마지막 줄 수를 지정한다.  \n- `--since`와 `--until` 옵션으로 특정 시간 범위 내 로그를 조회할 수 있다.  \n- 자세한 옵션과 사용법은 Docker 공식 문서에서 확인할 수 있다.",
+  "updatedAt": "2025-11-22T15:36:07.122Z"
+}

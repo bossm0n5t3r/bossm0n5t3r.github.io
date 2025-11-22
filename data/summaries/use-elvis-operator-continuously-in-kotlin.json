@@ -1,0 +1,6 @@
+{
+  "title": "use-elvis-operator-continuously-in-kotlin",
+  "key": "use-elvis-operator-continuously-in-kotlin",
+  "summary": "- Kotlin에서 엘비스 연산자(?:)를 연속으로 사용하는 코드를 실험하며 동작 방식을 확인했다.  \n- 두 번 연속 사용 시 첫 번째 값이 null이면 두 번째 값을 반환하고, 둘 다 null이면 예외를 던진다.  \n- 세 번 연속 사용 시에도 각 값이 null인지 순차적으로 검사하며 마지막까지 null이면 예외를 발생시킨다.  \n- Java로 디컴파일해도 Kotlin 코드와 동일하게 null 체크와 예외 처리가 명확히 구현됨을 확인했다.  \n- 연속된 엘비스 연산자 사용은 코드가 깔끔하며, 충분한 리뷰 후 사용해도 무방하다고 결론지었다.",
+  "updatedAt": "2025-11-22T15:38:18.196Z"
+}

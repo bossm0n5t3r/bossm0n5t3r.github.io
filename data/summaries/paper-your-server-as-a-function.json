@@ -1,0 +1,6 @@
+{
+  "title": "paper-your-server-as-a-function",
+  "key": "paper-your-server-as-a-function",
+  "summary": "- \"Your Server as a Function\" 논문은 Twitter 엔지니어링 팀이 2013년에 발표한 함수형 프로그래밍 기반 분산 서버 모델을 제시한다.  \n- 이 모델은 Futures, Services, Filters 세 가지 추상화를 통해 비동기 연산, 비동기 함수, 횡단 관심사 모듈화를 구현한다.  \n- Futures는 비동기 결과를 나타내며 flatMap과 rescue로 종속성과 에러 복구를 처리한다.  \n- Services는 비동기 함수 타입으로 클라이언트와 서버를 대칭적으로 설계하며, Filters는 재사용 가능한 체인 형태로 기능을 확장한다.  \n- Twitter의 Finagle과 Kotlin 기반 http4k가 이 모델을 구현해 대규모 인프라와 서버리스 환경에서 활용되고 있다.  \n- 함수형 아키텍처는 모듈성, 실행 추상화, 에러 추적성, 서버리스 대응에 강점을 가지며 대규모 분산 시스템에 실용적임을 입증했다.",
+  "updatedAt": "2025-11-22T15:37:27.712Z"
+}
