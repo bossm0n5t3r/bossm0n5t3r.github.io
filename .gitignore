@@ -19,3 +19,6 @@ public
 
 # pnpm
 node_modules/
+
+# .env
+.env
