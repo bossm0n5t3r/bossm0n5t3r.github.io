@@ -14,8 +14,10 @@
 <hr/>
 <section class="ai-summary">
   <h2>AI Summary</h2>
-  <p>{{ $summary.summary }}</p>
-  <small>Updated: {{ $summary.updatedAt }}</small>
+  <div class="ai-summary-body">
+    {{ $summary.summary | markdownify }}
+  </div>
+  <small>Updated: {{ time $summary.updatedAt | dateFormat "2006-01-02 15:04" }}</small>
 </section>
 {{ end }}
 
