@@ -130,3 +130,17 @@ code {
 .footnote-ref + .footnote-ref::before {
   content: ', [';
 }
+
+.ai-summary {
+  margin-top: 2rem;
+  padding: 1.2rem 1.5rem;
+  border-radius: 10px;
+  background: #f5f6f7;
+  border: 1px solid #ddd;
+  font-size: 0.98rem;
+  line-height: 1.6;
+}
+
+.ai-summary h2 {
+  margin-top: 0;
+}
