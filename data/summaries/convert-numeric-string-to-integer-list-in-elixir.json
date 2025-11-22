@@ -1,0 +1,6 @@
+{
+  "title": "convert-numeric-string-to-integer-list-in-elixir",
+  "key": "convert-numeric-string-to-integer-list-in-elixir",
+  "summary": "- Elixir에서 숫자 문자열을 숫자 배열로 변환하는 방법을 소개한다.  \n- 첫 번째 방법은 `String.codepoints/1`로 문자열을 문자 리스트로 분리한 후 `String.to_integer/1`로 각 문자를 정수로 변환한다.  \n- 두 번째 방법은 `to_charlist/1`로 문자열을 문자 리스트로 변환한 뒤, 각 문자의 ASCII 값에서 ?0(숫자 0의 ASCII) 값을 빼서 정수로 변환한다.  \n- 두 방법 모두 ExUnit 테스트를 통해 변환 결과가 올바른지 검증한다.  \n- 두 방식 모두 \"12345678910\" 같은 문자열을 [1, 2, 3, 4, 5, 6, 7, 8, 9, 1, 0] 형태의 정수 리스트로 변환한다.",
+  "updatedAt": "2025-11-22T15:35:59.751Z"
+}

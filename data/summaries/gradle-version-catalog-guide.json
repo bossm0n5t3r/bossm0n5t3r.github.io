@@ -1,0 +1,6 @@
+{
+  "title": "gradle-version-catalog-guide",
+  "key": "gradle-version-catalog-guide",
+  "summary": "- Gradle Version Catalog는 Gradle 7.4부터 공식 기능으로 도입되어, 복잡한 의존성 문자열을 중앙의 `libs.versions.toml` 파일에서 관리하고 타입 세이프한 방식으로 참조할 수 있게 한다.  \n- 중앙집중식 버전 관리로 일관성을 유지하고, 빌드 성능을 향상시키며, 보안 취약점 대응 시 한 곳만 수정하면 모든 모듈에 즉시 반영할 수 있다.  \n- 대규모 프로젝트에서는 `buildSrc`나 Convention Plugin에서 Catalog를 활용하려면 `settings.gradle.kts`에 별도 설정이 필요하며, 멀티 Catalog 전략과 별칭 정책으로 TOML 파일 관리를 효율화할 수 있다.  \n- 주요 한계로는 라이브러리 추가/제거 시 빌드 캐시 전체 무효화 문제와 동적 버전 미지원이 있으며, Gradle 팀이 개선 중이고 원격 캐시나 dependency locking으로 대응 가능하다.  \n- 팀 거버넌스 차원에서는 `CODEOWNERS` 지정, PR 템플릿 활용, 자동 의존성 업데이트 도구 연동 등 명확한 규칙과 프로세스가 필요하며, 이를 통해 협업 문화와 빌드 안정성을 높일 수 있다.  \n- Version Catalog는 단순 도구를 넘어 팀의 빌드 시스템 투명성과 협업을 강화하는 문화적 기반이 되어, 더 안전하고 품질 높은 소프트웨어 개발에 기여한다.",
+  "updatedAt": "2025-11-22T15:36:20.540Z"
+}

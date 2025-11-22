@@ -16,3 +16,9 @@ hugo.linux
 *.lock
 public
 .vercel
+
+# pnpm
+node_modules/
+
+# .env
+.env

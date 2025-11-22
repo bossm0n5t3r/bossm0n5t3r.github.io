@@ -1,0 +1,6 @@
+{
+  "title": "koog-mcp-integration-guide",
+  "key": "koog-mcp-integration-guide",
+  "summary": "- Koog는 Kotlin 기반 AI 에이전트 프레임워크로 MCP 프로토콜을 통해 AI 모델과 외부 도구를 표준화하여 연결한다.  \n- MCP는 JSON-RPC 2.0 기반 통신, 사용자 동의 중심 보안 설계, 유연한 확장성을 주요 특징으로 가진다.  \n- Koog는 `McpTool`, `McpToolDescriptorParser`, `McpToolRegistryProvider` 등의 컴포넌트로 MCP 서버와 연동하는 아키텍처를 제공한다.  \n- MCP 서버와 연결은 stdio(프로세스 기반) 또는 SSE(HTTP 기반) 전송 방식을 사용하며, 도구 레지스트리를 생성해 AI 에이전트와 통합한다.  \n- Google Maps, Playwright 등 실제 MCP 서버 연동 예제를 통해 AI 에이전트가 외부 API와 자동화 작업을 수행하는 방법을 보여준다.  \n- Koog와 MCP는 표준화된 통합, 개발 효율성, 보안성, 확장성을 제공하며 AI 기반 개발 도구, 데이터 분석, 웹 자동화 등에 활용할 수 있다.",
+  "updatedAt": "2025-11-22T15:36:50.745Z"
+}

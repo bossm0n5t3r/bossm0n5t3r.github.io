@@ -1,0 +1,6 @@
+{
+  "title": "text-language-detection",
+  "key": "text-language-detection",
+  "summary": "- Apache Tika의 LanguageDetector를 사용해 텍스트의 언어를 감지하는 방법을 소개한다.  \n- Kotlin 예제 코드로 의존성 설정과 기본 언어 감지 함수 구현법을 설명한다.  \n- 특정 언어만 감지하도록 ISO 639-1 코드 집합을 loadModels에 전달할 수 있다.  \n- setShortText, setMixedLanguages 같은 옵션으로 감지 방식을 조정할 수 있다.  \n- 짧거나 혼합된 문장은 감지 정확도가 떨어질 수 있으며, 긴 텍스트에서 더 신뢰할 만한 결과를 얻을 수 있다.  \n- 이 라이브러리는 n-gram 기반 언어 프로필과 빈도 비교로 동작하며, 완벽한 정확도는 어려우나 큰 텍스트에서 효과적임을 알 수 있다.",
+  "updatedAt": "2025-11-22T15:38:12.467Z"
+}

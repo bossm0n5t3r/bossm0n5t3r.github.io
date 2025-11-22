@@ -1,0 +1,6 @@
+{
+  "title": "testing-repository-save-entity-with-mockk",
+  "key": "testing-repository-save-entity-with-mockk",
+  "summary": "- MockK 라이브러리의 Slot Capture 기능을 활용해 `repository.save(entity)` 호출과 저장된 Entity 값을 효과적으로 테스트할 수 있다.  \n- 기본 설정으로 MockK, Spring Data JPA, AssertJ 의존성을 추가하고, UserEntity와 UserRepository, UserService 클래스를 준비한다.  \n- 단일 Entity 저장 테스트는 slot을 이용해 저장된 Entity를 캡처하고, verify와 assertThat으로 호출 여부와 값 검증을 수행한다.  \n- 다중 Entity 저장 시에는 mutableListOf를 사용해 여러 Entity를 캡처하고 각각의 저장 호출과 값을 검증할 수 있다.  \n- 저장 시 Entity 필드가 수정되는 경우에는 answers 블록에서 수정된 값을 반환해 업데이트된 필드를 테스트할 수 있다.  \n- 예외 상황 테스트는 save 호출 시 예외를 던지도록 설정하고, assertThrows로 예외 발생을 검증하며 테스트 간 slot 재사용 금지 등 주의사항을 지켜야 한다.",
+  "updatedAt": "2025-11-22T15:38:09.799Z"
+}

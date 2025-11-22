@@ -1,0 +1,6 @@
+{
+  "title": "one-line-swap-algorithm-in-kotlin",
+  "key": "one-line-swap-algorithm-in-kotlin",
+  "summary": "- 파이썬에서는 `a, b = b, a` 한 줄로 변수 값을 쉽게 교환할 수 있다.  \n- 코틀린에서는 `apply` 또는 `also` 스코프 함수를 이용해 한 줄로 swap이 가능하다.  \n- `apply`를 사용하면 `first = second.apply { second = first }` 형태로 값을 교환할 수 있다.  \n- `also`를 사용하면 `first = second.also { second = first }` 형태로 동일한 결과를 얻는다.  \n- 두 방법 모두 변수 값을 간결하게 교환할 수 있어 코틀린에서 유용하게 활용할 수 있다.",
+  "updatedAt": "2025-11-22T15:37:24.229Z"
+}

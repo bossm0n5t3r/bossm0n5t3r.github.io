@@ -1,0 +1,6 @@
+{
+  "title": "docker-image-prune",
+  "key": "docker-image-prune",
+  "summary": "- AWS EC2에 배포 시 ECR의 Docker 이미지가 계속 쌓여서 불필요한 이미지를 삭제하는 방법을 찾았다.  \n- `docker images --all` 명령어로 현재 저장된 모든 이미지를 확인할 수 있다.  \n- `docker image prune -a -f` 명령어를 사용하면 사용하지 않는 모든 이미지(태그가 없는 이미지 포함)를 강제로 삭제할 수 있다.  \n- 삭제 후 reclaim된 공간이 표시되며, 예시에서는 265.5MB가 확보되었다.  \n- 주요 옵션으로는 `--all(-a)`는 모든 미사용 이미지 삭제, `--force(-f)`는 확인 없이 삭제가 있다.  \n- 자세한 내용은 Docker 공식 문서에서 `docker image prune` 명령어를 참고하면 된다.",
+  "updatedAt": "2025-11-22T15:36:03.743Z"
+}

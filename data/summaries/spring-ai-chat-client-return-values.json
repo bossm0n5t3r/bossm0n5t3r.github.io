@@ -1,0 +1,6 @@
+{
+  "title": "spring-ai-chat-client-return-values",
+  "key": "spring-ai-chat-client-return-values",
+  "summary": "- Spring AI의 ChatClient에서 `call()`과 `stream()` 메서드의 반환값 타입을 정리했다.  \n- `call()` 메서드는 문자열 응답, 메타데이터를 포함한 `ChatResponse`, Java 엔티티 타입 등을 반환할 수 있다.  \n- `entity()` 메서드는 제네릭 타입, 컬렉션, 또는 `StructuredOutputConverter`를 사용해 특정 타입으로 변환된 결과를 반환한다.  \n- `stream()` 메서드는 AI가 생성하는 문자열이나 `ChatResponse` 객체를 `Flux` 형태로 반환한다.  \n- 각 반환값은 응답 내용과 메타데이터를 다양하게 활용할 수 있도록 설계되어 있다.",
+  "updatedAt": "2025-11-22T15:37:50.653Z"
+}

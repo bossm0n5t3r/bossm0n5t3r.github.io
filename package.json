@@ -1,0 +1,26 @@
+{
+  "name": "bossm0n5t3r.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "summary": "tsx scripts/generate-summaries.ts",
+    "dev": "pnpm summary && hugo server -D",
+    "build": "pnpm summary && hugo"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.23.0",
+  "devDependencies": {
+    "@types/node": "^24.10.1",
+    "fast-glob": "^3.3.3",
+    "gray-matter": "^4.0.3",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^6.9.1"
+  }
+}

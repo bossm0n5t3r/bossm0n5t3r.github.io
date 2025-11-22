@@ -1,0 +1,6 @@
+{
+  "title": "user-input-testing-in-kotlin",
+  "key": "user-input-testing-in-kotlin",
+  "summary": "- Kotlin에서 `readln()` 함수는 내부적으로 `System.in`을 통해 사용자 입력을 받으며, 이를 직접 모킹하기 어렵다.  \n- `System.setIn()` 메서드를 사용하면 `System.in`을 원하는 입력 스트림으로 교체하여 테스트 시 사용자 입력을 모킹할 수 있다.  \n- 여러 줄 입력을 처리하기 위해 `ByteArrayInputStream`에 `\\n`으로 구분된 문자열을 넣고, `vararg` 파라미터로 편리하게 입력을 받을 수 있도록 `mockUserInput` 함수를 작성했다.  \n- `mockUserInput` 함수는 입력을 세팅한 후 블록을 실행하여 테스트 코드 내에서 자연스럽게 사용자 입력을 시뮬레이션할 수 있게 한다.  \n- 작성한 테스트 코드는 잘못된 입력, 0으로 나누기, 잘못된 연산자 예외 처리와 정상 연산 결과를 검증하며, 예외 발생 없이 동작하는지 확인한다.  \n- 이 방법은 별도의 라이브러리 없이 Kotlin과 Java 표준 기능만으로 사용자 입력 테스트를 효과적으로 수행할 수 있음을 보여준다.",
+  "updatedAt": "2025-11-22T15:38:21.984Z"
+}

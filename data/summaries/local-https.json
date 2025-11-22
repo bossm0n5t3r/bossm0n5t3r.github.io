@@ -1,0 +1,6 @@
+{
+  "title": "local-https",
+  "key": "local-https",
+  "summary": "- 로컬 개발에서 HTTPS를 사용하는 방법으로 인터넷 프록시, mkcert + Nginx 도커 이미지, Spring Boot HTTPS 설정 세 가지를 소개한다.  \n- 인터넷 프록시 방법 중 localhost.run은 설치 없이 SSH 포트포워딩으로 로컬 서버를 공개 HTTPS URL로 연결해준다.  \n- mkcert를 이용해 로컬 루트 CA를 설치하고, Spring Boot에서 PKCS#12 형식 인증서를 사용해 HTTPS를 설정하는 방법이 가장 간단하다.  \n- Spring Boot 설정 파일에 인증서 경로와 포트를 지정하고, Intellij 환경 변수에 설정을 추가하면 HTTPS가 적용된다.  \n- ngrok은 설치가 필요하고 무료 버전에 제한이 있어 본문에서는 localhost.run을 주로 다루며, mkcert + Nginx 도커 방법은 설명만 있고 직접 사용하지는 않았다.  \n- 로컬 HTTPS는 개발 중 공개 URL이 필요한 경우 유용하지만, 보안상 노출 주의가 필요하며 관련 문서들을 참고해 설정하는 것이 좋다.",
+  "updatedAt": "2025-11-22T15:37:07.538Z"
+}

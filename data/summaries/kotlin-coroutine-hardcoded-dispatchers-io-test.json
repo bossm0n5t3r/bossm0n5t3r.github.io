@@ -1,0 +1,6 @@
+{
+  "title": "kotlin-coroutine-hardcoded-dispatchers-io-test",
+  "key": "kotlin-coroutine-hardcoded-dispatchers-io-test",
+  "summary": "- Kotlin 코루틴에서 `Dispatchers.IO`가 하드코딩된 경우 테스트 시 코루틴 완료 시점을 제어하기 어려워 랜덤 실패가 발생한다.  \n- Static Mocking 기법을 사용해 `Dispatchers.IO`를 테스트용 디스패처로 교체하고 `advanceUntilIdle()`로 코루틴 완료를 보장하는 방법이 즉시 적용 가능하다.  \n- 점진적 리팩토링으로 `CoroutineScope`를 외부에서 주입받도록 수정하면 테스트에서 스코프를 명시적으로 제어할 수 있다.  \n- 실패 사례는 `runTest` 블록 미사용과 `advanceUntilIdle()` 누락으로 코루틴이 완료되기 전에 검증이 수행되는 경우이다.  \n- 장기적으로는 DI 패턴을 도입해 디스패처를 주입받도록 리팩토링하는 것이 가장 안정적인 해결책이다.  \n- 핵심은 코루틴 완료 보장을 위해 `advanceUntilIdle()`를 호출하고, 테스트 시 디스패처 교체 여부를 반드시 확인하는 것이다.",
+  "updatedAt": "2025-11-22T15:36:55.276Z"
+}

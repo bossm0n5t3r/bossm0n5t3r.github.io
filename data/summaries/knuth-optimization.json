@@ -1,0 +1,6 @@
+{
+  "title": "knuth-optimization",
+  "key": "knuth-optimization",
+  "summary": "- Knuth's Optimization은 최적 이진트리 문제에 적용되는 기법으로 시간복잡도를 \\(O(N^3)\\)에서 \\(O(N^2)\\)로 줄인다.  \n- 이 기법은 \\(dp[i][j] = \\min_{i < k < j} \\{dp[i][k] + dp[k][j]\\} + C[i][j]\\) 형태의 점화식에 적용 가능하다.  \n- 최적의 분할점 \\(A[i][j]\\)가 \\(A[i][j-1] \\le A[i][j] \\le A[i+1][j]\\) 조건을 만족해야 한다.  \n- 비용 함수 \\(C[i][j]\\)는 사각 부등식과 단조성 조건을 반드시 만족해야 Knuth's Optimization을 사용할 수 있다.  \n- 대표적인 예제로 백준 11066 문제를 들 수 있으며, 관련 참고자료들이 여러 웹사이트에 정리되어 있다.",
+  "updatedAt": "2025-11-22T15:36:46.441Z"
+}

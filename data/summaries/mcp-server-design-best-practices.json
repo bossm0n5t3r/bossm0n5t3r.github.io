@@ -1,0 +1,6 @@
+{
+  "title": "mcp-server-design-best-practices",
+  "key": "mcp-server-design-best-practices",
+  "summary": "- MCP(Model Context Protocol)는 LLM이 외부 도구와 데이터 소스와 상호작용하는 방식을 표준화한 개방형 프로토콜이다.  \n- 기존 REST API는 인간 개발자용으로 설계된 반면, MCP는 LLM이 효율적으로 사용하도록 처음부터 설계되었다.  \n- MCP는 동적 발견, 표준화된 인터페이스, 실시간 양방향 통신을 지원하여 AI 모델이 기능을 자동으로 탐색하고 작업을 수행할 수 있게 한다.  \n- 단순히 기존 API를 자동 변환해 MCP 서버로 만드는 것은 설계 철학과 LLM 특성을 고려하지 않아 올바른 접근이 아니다.  \n- 올바른 MCP 서버 설계는 세션 관리, LLM 친화적 컨텍스트 제공, 명확한 에러 피드백, OAuth 2.1 기반 인증과 보안을 포함해야 한다.  \n- MCP는 AI-first 아키텍처 구축의 핵심 표준으로, 기술 구현뿐 아니라 보안과 운영 측면도 함께 고려해야 성공적인 도입이 가능하다.",
+  "updatedAt": "2025-11-22T15:37:16.652Z"
+}

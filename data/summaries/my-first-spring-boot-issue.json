@@ -1,0 +1,6 @@
+{
+  "title": "my-first-spring-boot-issue",
+  "key": "my-first-spring-boot-issue",
+  "summary": "- 사이드 프로젝트에서 Spring Boot 3.1.5와 Docker Compose 2.23.0 조합으로 실행 시 `NullPointerException` 에러가 발생했다.  \n- 원인은 `DefaultDockerCompose` 클래스의 `getRunningServices` 메서드에서 `psResponse.id()`와 `inspected` 키 값의 길이 불일치로 인해 `inspectResponse`가 null이 된 점이었다.  \n- Docker Compose 2.23.0부터 `docker compose ps` 명령어가 ID를 축약해서 반환하며, `--no-trunc` 옵션을 붙여야 전체 ID를 받을 수 있다.  \n- 문제 해결 방법으로는 ID를 substring으로 비교하거나 `--no-trunc` 옵션을 사용하는 두 가지가 제시되었다.  \n- 이슈를 GitHub에 등록하고, 이후 Spring Boot 팀에서 관련 커밋으로 문제를 해결해 이슈가 종료되었으며, 과정에서 코드와 테스트를 학습하는 기회가 되었다.  \n- 해당 버그는 Docker Compose 버전 업데이트에 따른 사이드 이펙트로, 다른 사용자들도 동일한 문제를 겪었고 공유를 통해 원인 파악에 도움이 되었다.",
+  "updatedAt": "2025-11-22T15:37:21.261Z"
+}

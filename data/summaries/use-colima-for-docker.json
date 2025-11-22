@@ -1,0 +1,6 @@
+{
+  "title": "use-colima-for-docker",
+  "key": "use-colima-for-docker",
+  "summary": "- Docker Desktop은 개인 사용자에게만 무료이며 기업 사용자는 유료로 전환되어 대체 솔루션이 필요하다.  \n- Colima는 MacOS/Linux에서 Lima 기반 VM을 이용해 Docker 컨테이너 런타임을 제공하는 오픈소스 프로젝트이다.  \n- Docker Desktop 데이터를 완전히 삭제하려면 컨테이너, 볼륨, 이미지 순서로 명령어를 실행해야 한다.  \n- Homebrew로 docker, docker-compose, colima를 설치하고, docker-compose는 플러그인으로 심볼릭 링크를 만들어야 한다.  \n- Colima 시작은 `colima start`, 종료는 `colima stop`, 삭제는 `colima delete` 명령어로 관리하며 `docker ps -a`로 상태를 확인한다.  \n- Testcontainers 사용 시 환경변수 설정과 IntelliJ Docker 플러그인 설정을 통해 Colima와 연동할 수 있다.",
+  "updatedAt": "2025-11-22T15:38:15.429Z"
+}
