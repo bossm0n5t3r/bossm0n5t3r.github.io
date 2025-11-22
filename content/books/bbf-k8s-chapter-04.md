@@ -1,5 +1,6 @@
 +++
 date = 2025-11-21T22:00:00+09:00
+lastmod = 2025-11-22
 title = "[그림과 실습으로 배우는 쿠버네티스 입문] 4장. 쿠버네티스 클러스터 위에 애플리케이션 만들기"
 authors = ["Ji-Hoon Kim"]
 tags = ["k8s", "kubernetes"]
@@ -261,7 +262,21 @@ Hello, world!%
 - kubectl run 으로 실행하는 방법
 
 ```bash
-kubectl run myapp2 --image=blux2/hello-server:1.0 --namespace default
+~/gitFolders/build-breaking-fixing-kubernetes master                   14:23:30
+❯ kubectl get pods --namespace default                                    
+NAME          READY   STATUS    RESTARTS   AGE
+hello-world   1/1     Running   0          75s
+
+~/gitFolders/build-breaking-fixing-kubernetes master                   14:24:45
+❯ **kubectl run another-hello-world --image=hello-server:1.0.0 --namespace default**
+pod/another-hello-world created
+
+~/gitFolders/build-breaking-fixing-kubernetes master*                  14:41:10
+❯ kubectl get pods --namespace default
+NAME                  READY   STATUS    RESTARTS   AGE
+another-hello-world   1/1     Running   0          45s
+hello-world           1/1     Running   0          18m
+
 ```
 
 - `kubectl run` 보다는 `kubectl apply` 를 사용하는 것을 추천
