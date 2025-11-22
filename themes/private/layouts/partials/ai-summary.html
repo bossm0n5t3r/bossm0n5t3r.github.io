@@ -17,7 +17,9 @@
   <div class="ai-summary-body">
     {{ $summary.summary | markdownify }}
   </div>
-  <small>Updated: {{ time $summary.updatedAt | dateFormat "2006-01-02 15:04" }}</small>
+  <small>
+    Updated: {{ time $summary.updatedAt | dateFormat "2006-01-02 15:04" }} UTC
+  </small>
 </section>
 {{ end }}
 
