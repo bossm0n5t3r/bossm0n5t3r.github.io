@@ -268,7 +268,7 @@ NAME          READY   STATUS    RESTARTS   AGE
 hello-world   1/1     Running   0          75s
 
 ~/gitFolders/build-breaking-fixing-kubernetes master                   14:24:45
-❯ **kubectl run another-hello-world --image=hello-server:1.0.0 --namespace default**
+❯ kubectl run another-hello-world --image=hello-server:1.0.0 --namespace default
 pod/another-hello-world created
 
 ~/gitFolders/build-breaking-fixing-kubernetes master*                  14:41:10
