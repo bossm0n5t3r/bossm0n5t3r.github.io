@@ -21,6 +21,7 @@ fi
 echo "🏃 Running container: $CONTAINER_NAME on port $PORT..."
 docker run -d \
     --name $CONTAINER_NAME \
+    --restart unless-stopped \
     -p $PORT:80 \
     $IMAGE_NAME
 
